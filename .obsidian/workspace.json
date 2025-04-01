@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "954bb346fe2911f8",
+        "id": "45b08d8d566aff26",
         "type": "tabs",
         "children": [
           {
-            "id": "3a770735d7dd6d16",
+            "id": "6405d158a6241fec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_books/the_godfather.md",
+                "file": "_posts/2025-04-01-帆鸣_uifj.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "the_godfather"
+              "title": "2025-04-01-帆鸣_uifj"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_books/the_godfather.md"
+                "file": "_posts/2025-04-01-帆鸣_uifj.md"
               },
               "icon": "lucide-list",
-              "title": "the_godfather 的大纲"
+              "title": "2025-04-01-帆鸣_uifj 的大纲"
             }
           },
           {
@@ -173,12 +173,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a770735d7dd6d16",
+  "active": "6405d158a6241fec",
   "lastOpenFiles": [
-    "_news/announcement_3.md",
+    "_posts/2025-03-26-plotly.md",
+    "_posts/2025-04-01-帆鸣_uifj.md",
+    "_posts/2015-03-15-formatting-and-links.md",
+    "_pages/404.md",
     "_news/announcement_2.md",
     "_news/announcement_1.md",
+    "_pages/about.md",
+    "_pages/about_einstein.md",
+    "_pages/blog.md",
+    "_pages/dropdown.md",
+    "_pages/profiles.md",
+    "_pages/news.md",
+    "_pages/cv.md",
+    "_pages/projects.md",
+    "_pages/books.md",
     "lighthouse_results/mobile/pagespeed.svg",
+    "_books/the_godfather.md",
+    "_news/announcement_3.md",
     "lighthouse_results/desktop/pagespeed.svg",
     "readme_preview/photos-screenshot.png",
     "readme_preview/projects.png",
@@ -191,7 +205,6 @@
     "CONTRIBUTING.md",
     "CUSTOMIZE.md",
     "FAQ.md",
-    "INSTALL.md",
-    "_books/the_godfather.md"
+    "INSTALL.md"
   ]
 }
