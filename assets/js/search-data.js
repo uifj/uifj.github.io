@@ -58,19 +58,33 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
+        },{id: "dropdown-读书笔记",
+              title: "读书笔记",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-每月总结",
+              title: "每月总结",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/reports/";
+              },
+            },{id: "dropdown-高效工具",
+              title: "高效工具",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/tools/";
+              },
+            },{id: "dropdown-个人故事",
+              title: "个人故事",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/stories/";
               },
             },{id: "post-a-post-with-new-js",
         
