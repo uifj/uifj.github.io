@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "437879f79df4714b",
+    "type": "split",
+    "children": [
+      {
+        "id": "954bb346fe2911f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a770735d7dd6d16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_books/the_godfather.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "the_godfather"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "80f1e858604c152b",
+    "type": "split",
+    "children": [
+      {
+        "id": "11976e93547ee58a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68332ffc12f0b4a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "e2b2e75236aa3298",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "553f6cc5a4780753",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5afaa138781cfebf",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e8d704e82f6c4bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "107fcef4e26745a7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_books/the_godfather.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "the_godfather 的反向链接列表"
+            }
+          },
+          {
+            "id": "594c0de3004e53e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_books/the_godfather.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "the_godfather 的出链列表"
+            }
+          },
+          {
+            "id": "d231ef457dbc19f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "8d686c3745c5cabd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_books/the_godfather.md"
+              },
+              "icon": "lucide-list",
+              "title": "the_godfather 的大纲"
+            }
+          },
+          {
+            "id": "2352af1b30414f5c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3a770735d7dd6d16",
+  "lastOpenFiles": [
+    "_news/announcement_3.md",
+    "_news/announcement_2.md",
+    "_news/announcement_1.md",
+    "lighthouse_results/mobile/pagespeed.svg",
+    "lighthouse_results/desktop/pagespeed.svg",
+    "readme_preview/photos-screenshot.png",
+    "readme_preview/projects.png",
+    "readme_preview/publications.png",
+    "readme_preview/people.png",
+    "readme_preview/math.png",
+    "readme_preview/light.png",
+    "readme_preview/jupyter.png",
+    "readme_preview/distill.png",
+    "CONTRIBUTING.md",
+    "CUSTOMIZE.md",
+    "FAQ.md",
+    "INSTALL.md",
+    "_books/the_godfather.md"
+  ]
+}

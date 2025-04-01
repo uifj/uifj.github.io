@@ -250,3 +250,122 @@ You can still follow the steps above, but `git rebase` may result in merge confl
 See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
 If rebasing is too complicated, we recommend re-installing the new version of the theme from scratch and port over your content and changes from the previous version manually. You can use tools like [meld](https://meldmerge.org/)
 or [winmerge](https://winmerge.org/) to help in this process.
+
+
+# 安装和部署
+### 详细部署步骤说明：将 al-folio 部署到 GitHub Pages
+
+---
+
+#### **一、创建符合规范的仓库**
+1. **使用模板创建新仓库**：
+   • 访问 [al-folio 官方仓库](https://github.com/alshedivat/al-folio)
+   • 点击 **`Use this template → Create a new repository`**
+   • 输入仓库名（**关键规则**）：
+     ◦ **个人/组织主页**：必须命名为 `<你的GitHub用户名>.github.io`  
+       （例：用户 `john` 需命名为 `john.github.io`）
+     ◦ **项目主页**：可自由命名，但需在配置中指定 `baseurl`（见步骤三）
+
+2. **启用 GitHub Actions 权限**：
+   • 进入仓库 → `Settings → Actions → General`
+   • 在 **Workflow permissions** 中勾选 `Read and write permissions`
+   • 点击 **Save**
+
+---
+
+#### **二、配置核心参数**
+1. **修改 `_config.yml`**：
+   • 文件路径：仓库根目录下的 `_config.yml`
+   • **个人/组织主页**配置：
+     ```yaml
+     url: "https://<你的GitHub用户名>.github.io"
+     baseurl: ""  # 必须留空，不能删除此行
+     ```
+   • **项目主页**配置：
+     ```yaml
+     url: "https://<你的GitHub用户名>.github.io"
+     baseurl: "/<仓库名>"  # 例：baseurl: "/my-project"
+     ```
+
+2. **推送初始配置**：
+   ```bash
+   git add _config.yml
+   git commit -m "初始化配置"
+   git push origin master
+   ```
+
+---
+
+#### **三、触发自动部署**
+1. **等待首次构建完成**：
+   • 进入仓库 → `Actions` 标签页
+   • 查看 **Deploy site** 工作流的运行状态（约需 4 分钟）
+   • **成功标志**：生成新的 `gh-pages` 分支
+
+2. **设置 GitHub Pages 发布源**：
+   • 进入仓库 → `Settings → Pages`
+   • 在 **Build and deployment** 中：
+     ◦ 选择 **Deploy from a branch**
+     ◦ 分支选择 **`gh-pages`**（勿选 `master`）
+     ◦ 路径保持默认 `/ (root)`
+
+3. **等待页面发布**：
+   • 查看 **Actions** 标签页中的 `pages-build-deployment` 状态（约 45 秒）
+   • 访问你的 GitHub Pages 地址：
+     ◦ 个人主页：`https://<用户名>.github.io`
+     ◦ 项目主页：`https://<用户名>.github.io/<仓库名>`
+
+---
+
+#### **四、本地开发与自定义（可选）**
+1. **本地环境搭建（推荐 Docker）**：
+   ```bash
+   # 安装 Docker 后执行：
+   docker compose pull   # 拉取预构建镜像
+   docker compose up     # 启动本地服务器
+   ```
+   • 访问 `http://localhost:8080` 实时预览修改
+
+2. **自定义内容**：
+   • **修改个人信息**：编辑 `_config.yml` 中的 `author`, `social` 等字段
+   • **添加博客文章**：在 `_posts/` 目录下新建 Markdown 文件（文件名格式：`YYYY-MM-DD-title.md`）
+   • **更新项目/出版物**：修改 `_data/projects.yml` 和 `_data/publications.yml`
+
+---
+
+#### **五、持续部署与维护**
+1. **自动更新机制**：
+   • 每次向 `master` 分支推送代码后，GitHub Actions 会自动重建 `gh-pages` 分支
+   • **强制刷新缓存**：在仓库 `Settings → Pages` 点击 **Clear build cache**
+
+2. **手动触发部署**：
+   • 进入仓库 → `Actions → Deploy site`
+   • 点击 **Run workflow** 右侧下拉箭头 → **Run workflow**
+
+---
+
+#### **六、高级配置**
+1. **自定义域名**：
+   • 在仓库根目录创建 `CNAME` 文件，写入你的域名（如 `blog.example.com`）
+   • 在 DNS 解析服务商添加 CNAME 记录指向 `<用户名>.github.io`
+
+2. **集成 Google Analytics**：
+   • 修改 `_config.yml`：
+     ```yaml
+     analytics:
+       google: "UA-XXXXXXXXX-X"  # 替换为你的跟踪 ID
+     ```
+
+---
+
+#### **常见问题排查**
+| 问题现象                     | 解决方案                                                                 |
+|------------------------------|--------------------------------------------------------------------------|
+| **页面显示 404**             | 检查仓库名是否符合规范，`baseurl` 是否与仓库名一致                       |
+| **CSS/JS 加载失败**          | 确认 `_config.yml` 中 `url` 和 `baseurl` 配置正确                        |
+| **GitHub Actions 构建失败**  | 查看具体报错信息，常见原因：Ruby 依赖冲突或配置文件语法错误              |
+| **本地 Docker 无法启动**     | Windows 用户需启用 WSL2，运行 `wsl --update` 更新子系统                  |
+
+---
+
+通过以上步骤，你的学术主页将在 10 分钟内完成部署并全球可访问。后续只需通过 Git 推送更新即可自动同步到 GitHub Pages。
