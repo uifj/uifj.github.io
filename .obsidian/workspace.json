@@ -11,10 +11,14 @@
             "id": "8122372db2184319",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-04-02-GDScript依赖注入.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2025-04-02-GDScript依赖注入"
             }
           }
         ]
@@ -171,9 +175,12 @@
   },
   "active": "8122372db2184319",
   "lastOpenFiles": [
-    "_posts/godot/2025-04-02-又开始幻想了“恼”.md",
+    "_posts/2025-04-02-GDScript使用小技巧.md",
+    "_posts/2025-04-02-手册学习之最佳实践.md",
+    "_posts/2025-04-01-手册学习之常用节点.md",
     "_posts/2025-04-01-帆鸣_uifj.md",
-    "_posts/2025-04-01-newpage.md",
+    "_posts/2025-04-02-GDScript依赖注入.md",
+    "_posts/godot/2025-04-02-又开始幻想了“恼”.md",
     "_posts/2015-03-15-formatting-and-links.md",
     "_posts/godot",
     "_posts/2025-03-26-plotly.md",
@@ -205,8 +212,6 @@
     "readme_preview/jupyter.png",
     "readme_preview/distill.png",
     "CONTRIBUTING.md",
-    "CUSTOMIZE.md",
-    "FAQ.md",
-    "INSTALL.md"
+    "CUSTOMIZE.md"
   ]
 }
