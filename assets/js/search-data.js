@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/stories/";
               },
-            },{id: "post-a-post-with-new-js",
+            },{id: "post-帆鸣-uifj-愚人节快乐",
+        
+          title: "帆鸣_uifj_愚人节快乐！",
+        
+        description: "迁移个人website",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/%E5%B8%86%E9%B8%A3_uifj/";
+          
+        },
+      },{id: "post-a-post-with-new-js",
         
           title: "a post with new.js",
         
