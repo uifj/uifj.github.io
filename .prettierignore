@@ -10,6 +10,7 @@ lighthouse_results/**
 INSTALL.md
 _config.yml
 _posts/**
+_data/repositories.yml
 _sass/font-awesome/*.scss
 _sass/tabler-icons/*.scss
 _scripts/search.liquid.js
