@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://uifj.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://uifj.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-04-02T01:17:29+00:00</updated><id>https://uifj.github.io/feed.xml</id><title type="html">帆鸣_uifj</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">帆鸣_uifj_愚人节快乐！</title><link href="https://uifj.github.io/blog/2025/%E5%B8%86%E9%B8%A3_uifj/" rel="alternate" type="text/html" title="帆鸣_uifj_愚人节快乐！"/><published>2025-04-01T20:00:00+00:00</published><updated>2025-04-01T20:00:00+00:00</updated><id>https://uifj.github.io/blog/2025/%E5%B8%86%E9%B8%A3_uifj</id><content type="html" xml:base="https://uifj.github.io/blog/2025/%E5%B8%86%E9%B8%A3_uifj/"><![CDATA[<h1 id="呼唤">呼唤</h1> <p>愚人节快乐！！</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[迁移个人website]]></summary></entry><entry><title type="html">a post with new.js</title><link href="https://uifj.github.io/blog/2025/newpage/" rel="alternate" type="text/html" title="a post with new.js"/><published>2025-04-01T14:24:00+00:00</published><updated>2025-04-01T14:24:00+00:00</updated><id>https://uifj.github.io/blog/2025/newpage</id><content type="html" xml:base="https://uifj.github.io/blog/2025/newpage/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://uifj.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://uifj.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-04-02T10:51:36+00:00</updated><id>https://uifj.github.io/feed.xml</id><title type="html">帆鸣_uifj</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">又开始幻想了“恼”！</title><link href="https://uifj.github.io/blog/2025/%E5%8F%88%E5%BC%80%E5%A7%8B%E5%B9%BB%E6%83%B3%E4%BA%86-%E6%81%BC/" rel="alternate" type="text/html" title="又开始幻想了“恼”！"/><published>2025-04-02T09:00:00+00:00</published><updated>2025-04-02T09:00:00+00:00</updated><id>https://uifj.github.io/blog/2025/%E5%8F%88%E5%BC%80%E5%A7%8B%E5%B9%BB%E6%83%B3%E4%BA%86%E2%80%9C%E6%81%BC%E2%80%9D</id><content type="html" xml:base="https://uifj.github.io/blog/2025/%E5%8F%88%E5%BC%80%E5%A7%8B%E5%B9%BB%E6%83%B3%E4%BA%86-%E6%81%BC/"><![CDATA[<h1 id="呼唤">呼唤</h1> <p>愚人节快乐！！</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="life"/><category term="charts"/><summary type="html"><![CDATA[幻想之作]]></summary></entry><entry><title type="html">手册学习之常用节点</title><link href="https://uifj.github.io/blog/2025/%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E7%94%A8%E8%8A%82%E7%82%B9/" rel="alternate" type="text/html" title="手册学习之常用节点"/><published>2025-04-02T00:00:00+00:00</published><updated>2025-04-02T00:00:00+00:00</updated><id>https://uifj.github.io/blog/2025/%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E7%94%A8%E8%8A%82%E7%82%B9</id><content type="html" xml:base="https://uifj.github.io/blog/2025/%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E7%94%A8%E8%8A%82%E7%82%B9/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
 </span><span class="sb">{
   "data": [
     {
@@ -78,7 +78,586 @@
     }
   }
 }
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included plotly.js code could look like]]></summary></entry><entry><title type="html">a post with plotly.js</title><link href="https://uifj.github.io/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://uifj.github.io/blog/2025/plotly</id><content type="html" xml:base="https://uifj.github.io/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
+</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="Godot"/><category term="GDScript"/><category term="note"/><summary type="html"><![CDATA[this is what included plotly.js code could look like]]></summary></entry><entry><title type="html">GDScript使用小技巧</title><link href="https://uifj.github.io/blog/2025/GDScript%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/" rel="alternate" type="text/html" title="GDScript使用小技巧"/><published>2025-04-02T00:00:00+00:00</published><updated>2025-04-02T00:00:00+00:00</updated><id>https://uifj.github.io/blog/2025/GDScript%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7</id><content type="html" xml:base="https://uifj.github.io/blog/2025/GDScript%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"><![CDATA[<h3 id="一操作符">一、操作符</h3> <h4 id="in">in</h4> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 可以使用 In 运算符检查对象中是否存在给定的属性、方法或信号名称(信号是过去式)
+var node = Node.new()
+print("name" in node)         # Prints true
+print("get_parent" in node)   # Prints true
+print("tree_entered" in node) # Prints true
+print("unknown" in node)      # Prints false
+</code></pre></div></div>]]></content><author><name></name></author><category term="sample-posts"/><category term="Godot"/><category term="GDScript"/><category term="note"/><summary type="html"><![CDATA[this is what included plotly.js code could look like]]></summary></entry><entry><title type="html">GDScript依赖注入实践</title><link href="https://uifj.github.io/blog/2025/GDScript%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/" rel="alternate" type="text/html" title="GDScript依赖注入实践"/><published>2025-04-02T00:00:00+00:00</published><updated>2025-04-02T00:00:00+00:00</updated><id>https://uifj.github.io/blog/2025/GDScript%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5</id><content type="html" xml:base="https://uifj.github.io/blog/2025/GDScript%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/"><![CDATA[<p>遵循最佳实践，为了实现解耦。</p> <p>遵循Godot最佳实践：</p> <ul> <li>使用@export注解替代直接变量声明，提高配置的灵活性</li> <li>优化信号连接方式，使用新的连接语法</li> <li>改进输入处理系统，将输入逻辑分离到专门的方法中</li> <li>使用Godot的内置类型和工具提升性能</li> <li>添加更多的类型注解，提高代码的可读性和可维护性</li> <li>优化错误处理和日志记录，使用格式化字符串</li> <li>重构进化系统，将相关功能模块化</li> <li>改进代码组织结构，提高代码的可维护性</li> </ul> <ol> <li>输入系统优化 <ul> <li>添加了输入冷却机制，防止快速连续按键导致的方向突变</li> <li>改进了方向变更的验证逻辑</li> <li>增加了输入状态管理</li> </ul> </li> <li>移动系统改进 <ul> <li>实现了预测性碰撞检测</li> <li>优化了移动逻辑，提高了代码可读性和维护性</li> <li>将位置验证逻辑封装到独立函数中</li> </ul> </li> <li>装饰系统增强 <ul> <li>为所有装饰物添加了错误处理机制</li> <li>增加了配置验证</li> <li>改进了装饰物的创建和清理流程</li> <li>添加了详细的日志记录</li> </ul> </li> <li>使用Godot的信号系统替代直接函数调用，实现更好的解耦；</li> <li>优化节点结构，合理使用节点组和自动加载单例；</li> <li>改进资源加载和场景管理机制；</li> <li>使用Godot的内置类型和工具进行性能优化；</li> <li>规范化节点命名和场景组织。我会首先对Snake.gd进行重构，然后逐步完善其他相关文件。</li> <li>使用@export注解替代直接变量声明，优化信号连接方式，使用内置类型提升性能，并添加类型注解。</li> <li>重点改进碰撞检测和移动逻辑，使用Godot的内置类型和工具提升性能，同时优化错误处理。</li> </ol> <ul> <li>核心架构优化：使用节点组和自动加载单例，实现MVC模式分离</li> <li>信号系统重构：采用新版信号语法，优化组件间通信</li> <li>输入系统改进：实现InputHandler类，处理输入验证和状态管理</li> <li>碰撞系统优化：使用内置物理系统，实现高效碰撞检测</li> <li>移动系统完善：实现预测性碰撞检测，优化移动逻辑</li> <li>资源管理优化：改进场景加载机制，实现资源预加载</li> <li>类型系统规范：添加类型注解，使用@export优化配置</li> <li>错误处理增强：实现统一的错误处理和日志系统</li> <li>装饰系统改进：优化特效和视觉反馈系统</li> <li>性能优化：使用对象池，优化渲染和内存使用</li> <li>代码规范化：统一命名规范，优化代码组织结构</li> <li>调试功能：添加调试模式和性能监控工具 扩展最佳时间的说明内容排序，将上面的内容，要更详细，更完善，因为我打算按照企业级游戏开发标准，完成一个2d冒险类rpg游戏，有战斗系统、boss机制、高级状态机行为树、背包系统、任务系统、存档管理、音频管理等等功能。</li> </ul> <p>在 Godot 中使用依赖注入（Dependency Injection）与常规节点引用方式有本质区别，尤其是在复杂项目架构中。以下通过具体场景和 GDScript 示例说明二者的区别及适用场景：</p> <hr/> <h1 id="依赖注入与最佳实践">依赖注入与最佳实践</h1> <h3 id="一常规节点引用方式"><strong>一、常规节点引用方式</strong></h3> <h4 id="典型场景"><strong>典型场景</strong>：</h4> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Player.gd</span>
+<span class="k">extends</span> <span class="n">CharacterBody2D</span>
+
+<span class="k">func</span> <span class="nf">take_damage</span><span class="p">(</span><span class="n">amount</span><span class="p">:</span> <span class="kt">int</span><span class="p">):</span>
+    <span class="k">var</span> <span class="n">hud</span> <span class="o">=</span> <span class="n">get_node</span><span class="p">(</span><span class="s2">"/root/MainScene/HUD"</span><span class="p">)</span> <span class="c1"># 直接通过路径获取</span>
+    <span class="n">hud</span><span class="o">.</span><span class="n">update_health_bar</span><span class="p">(</span><span class="n">health</span><span class="p">)</span>
+    
+    <span class="k">var</span> <span class="n">sound_mgr</span> <span class="o">=</span> <span class="n">get_node</span><span class="p">(</span><span class="s2">"/root/SoundManager"</span><span class="p">)</span> <span class="c1"># 依赖全局单例</span>
+    <span class="n">sound_mgr</span><span class="o">.</span><span class="n">play_sound</span><span class="p">(</span><span class="s2">"hurt"</span><span class="p">)</span>
+</code></pre></div></div> <p><strong>问题</strong>： • <strong>紧耦合</strong>：直接依赖具体节点路径和单例 • <strong>难以测试</strong>：无法替换 <code class="language-plaintext highlighter-rouge">HUD</code> 或 <code class="language-plaintext highlighter-rouge">SoundManager</code> 的模拟实现 • <strong>维护困难</strong>：节点路径变更需修改多处代码</p> <hr/> <h3 id="二依赖注入实现"><strong>二、依赖注入实现</strong></h3> <h4 id="1-构造函数注入"><strong>1. 构造函数注入</strong>：</h4> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Player.gd</span>
+<span class="k">extends</span> <span class="n">CharacterBody2D</span>
+
+<span class="k">var</span> <span class="n">hud</span><span class="p">:</span> <span class="n">HUD</span>
+<span class="k">var</span> <span class="n">sound_mgr</span><span class="p">:</span> <span class="n">SoundManager</span>
+
+<span class="k">func</span> <span class="nf">_init</span><span class="p">(</span><span class="n">hud_ref</span><span class="p">:</span> <span class="n">HUD</span><span class="p">,</span> <span class="n">sound_ref</span><span class="p">:</span> <span class="n">SoundManager</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">hud</span> <span class="o">=</span> <span class="n">hud_ref</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">sound_mgr</span> <span class="o">=</span> <span class="n">sound_ref</span>
+
+<span class="k">func</span> <span class="nf">take_damage</span><span class="p">(</span><span class="n">amount</span><span class="p">:</span> <span class="kt">int</span><span class="p">):</span>
+    <span class="n">hud</span><span class="o">.</span><span class="n">update_health_bar</span><span class="p">(</span><span class="n">health</span><span class="p">)</span>
+    <span class="n">sound_mgr</span><span class="o">.</span><span class="n">play_sound</span><span class="p">(</span><span class="s2">"hurt"</span><span class="p">)</span>
+
+<span class="c1"># 场景初始化时</span>
+<span class="k">var</span> <span class="n">player</span> <span class="o">=</span> <span class="n">PlayerScene</span><span class="o">.</span><span class="n">instantiate</span><span class="p">(</span><span class="n">hud_node</span><span class="p">,</span> <span class="n">sound_mgr_node</span><span class="p">)</span>
+</code></pre></div></div> <p><strong>优势</strong>：明确依赖关系，易替换实现</p> <h4 id="2-属性注入"><strong>2. 属性注入</strong>：</h4> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># GameManager.gd</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">player</span><span class="p">:</span> <span class="n">Player</span><span class="p">:</span>
+    <span class="n">set</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
+        <span class="n">player</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="n">player</span><span class="o">.</span><span class="n">hud</span> <span class="o">=</span> <span class="o">$</span><span class="n">HUD</span>
+        <span class="n">player</span><span class="o">.</span><span class="n">sound_mgr</span> <span class="o">=</span> <span class="o">$</span><span class="n">SoundManager</span>
+</code></pre></div></div> <p><strong>优势</strong>：通过编辑器可视化配置依赖</p> <hr/> <h3 id="三依赖注入的典型应用场景"><strong>三、依赖注入的典型应用场景</strong></h3> <h4 id="1-跨场景服务共享"><strong>1. 跨场景服务共享</strong></h4> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 通过资源文件配置依赖</span>
+<span class="c1"># config.tres</span>
+<span class="k">extends</span> <span class="n">Resource</span>
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">audio_service</span><span class="p">:</span> <span class="n">AudioService</span>
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">save_service</span><span class="p">:</span> <span class="n">SaveService</span>
+
+<span class="c1"># 注入到所有需要的地方</span>
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">config</span><span class="p">:</span> <span class="n">ConfigResource</span>
+
+<span class="k">func</span> <span class="nf">_ready</span><span class="p">():</span>
+    <span class="o">$</span><span class="n">Player</span><span class="o">.</span><span class="n">set_audio_service</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">audio_service</span><span class="p">)</span>
+</code></pre></div></div> <h4 id="2-单元测试模拟"><strong>2. 单元测试模拟</strong></h4> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># test_player.gd</span>
+<span class="k">func</span> <span class="nf">test_take_damage</span><span class="p">():</span>
+    <span class="k">var</span> <span class="n">mock_hud</span> <span class="o">=</span> <span class="n">MockHUD</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+    <span class="k">var</span> <span class="n">mock_sound</span> <span class="o">=</span> <span class="n">MockSoundManager</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+    <span class="k">var</span> <span class="n">player</span> <span class="o">=</span> <span class="n">Player</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">mock_hud</span><span class="p">,</span> <span class="n">mock_sound</span><span class="p">)</span>
+    
+    <span class="n">player</span><span class="o">.</span><span class="n">take_damage</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+    <span class="n">assert_true</span><span class="p">(</span><span class="n">mock_hud</span><span class="o">.</span><span class="n">health_updated_called</span><span class="p">)</span>
+</code></pre></div></div> <h4 id="3-多平台差异化实现"><strong>3. 多平台差异化实现</strong></h4> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 移动端输入服务</span>
+<span class="k">class</span> <span class="nc">MobileInputService</span> <span class="k">extends</span> <span class="n">InputService</span><span class="p">:</span>
+    <span class="k">func</span> <span class="nf">get_move_direction</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Vector2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">touch_gesture_direction</span>
+
+<span class="c1"># PC端输入服务  </span>
+<span class="k">class</span> <span class="nc">PCInputService</span> <span class="k">extends</span> <span class="n">InputService</span><span class="p">:</span>
+    <span class="k">func</span> <span class="nf">get_move_direction</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Vector2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">Input</span><span class="o">.</span><span class="n">get_vector</span><span class="p">(</span><span class="s2">"left"</span><span class="p">,</span> <span class="s2">"right"</span><span class="p">,</span> <span class="s2">"up"</span><span class="p">,</span> <span class="s2">"down"</span><span class="p">)</span>
+
+<span class="c1"># 根据平台注入</span>
+<span class="k">func</span> <span class="nf">_setup_input</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">OS</span><span class="o">.</span><span class="n">is_mobile</span><span class="p">():</span>
+        <span class="n">player</span><span class="o">.</span><span class="n">input_service</span> <span class="o">=</span> <span class="n">MobileInputService</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">player</span><span class="o">.</span><span class="n">input_service</span> <span class="o">=</span> <span class="n">PCInputService</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+</code></pre></div></div> <hr/> <h3 id="四godot-依赖注入最佳实践"><strong>四、Godot 依赖注入最佳实践</strong></h3> <h4 id="1-接口抽象"><strong>1. 接口抽象</strong></h4> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># IAnalyticsService.gd</span>
+<span class="k">extends</span> <span class="n">RefCounted</span>
+<span class="k">class_name</span> <span class="n">IAnalyticsService</span>
+
+<span class="k">func</span> <span class="nf">log_event</span><span class="p">(</span><span class="n">event_name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+    <span class="k">pass</span>
+
+<span class="c1"># 实现类</span>
+<span class="k">class</span> <span class="nc">FirebaseAnalytics</span> <span class="k">extends</span> <span class="n">IAnalyticsService</span><span class="p">:</span>
+    <span class="k">func</span> <span class="nf">log_event</span><span class="p">(</span><span class="n">event_name</span><span class="p">:</span> <span class="kt">String</span><span class="p">):</span>
+        <span class="n">Firebase</span><span class="o">.</span><span class="n">Analytics</span><span class="o">.</span><span class="n">log_event</span><span class="p">(</span><span class="n">event_name</span><span class="p">)</span>
+</code></pre></div></div> <h4 id="2-依赖容器"><strong>2. 依赖容器</strong></h4> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># DI Container</span>
+<span class="k">var</span> <span class="n">services</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"analytics"</span><span class="p">:</span> <span class="n">FirebaseAnalytics</span><span class="o">.</span><span class="n">new</span><span class="p">(),</span>
+    <span class="s2">"storage"</span><span class="p">:</span> <span class="n">CloudSaveService</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="nf">get_service</span><span class="p">(</span><span class="n">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">services</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+
+<span class="c1"># 使用端</span>
+<span class="k">var</span> <span class="n">analytics</span> <span class="o">=</span> <span class="n">DIContainer</span><span class="o">.</span><span class="n">get_service</span><span class="p">(</span><span class="s2">"analytics"</span><span class="p">)</span>
+<span class="n">analytics</span><span class="o">.</span><span class="n">log_event</span><span class="p">(</span><span class="s2">"game_start"</span><span class="p">)</span>
+</code></pre></div></div> <h4 id="3-自动注入工具"><strong>3. 自动注入工具</strong></h4> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 通过特性标记自动注入</span>
+<span class="k">class_name</span> <span class="n">Injectable</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">di_key</span><span class="p">:</span> <span class="kt">String</span>
+
+<span class="k">func</span> <span class="nf">_enter_tree</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">DIContainer</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="n">di_key</span><span class="p">):</span>
+        <span class="n">set</span><span class="p">(</span><span class="n">di_key</span><span class="p">,</span> <span class="n">DIContainer</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">di_key</span><span class="p">))</span>
+
+<span class="c1"># 使用</span>
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">analytics</span><span class="p">:</span> <span class="n">IAnalyticsService</span><span class="p">:</span>
+    <span class="n">set</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
+        <span class="n">analytics</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="n">add_to_group</span><span class="p">(</span><span class="s2">"injectable"</span><span class="p">,</span> <span class="bp">true</span><span class="p">)</span>
+</code></pre></div></div> <hr/> <h3 id="五与传统方式的性能对比"><strong>五、与传统方式的性能对比</strong></h3> <p>| <strong>指标</strong> | <strong>常规方式</strong> | <strong>依赖注入</strong> | |—————-|————-|————-| | 代码耦合度 | 高 (⭐) | 低 (⭐⭐⭐⭐⭐) | | 可测试性 | 差 | 优 | | 启动时间 | 快 | 略慢(+5-10%)| | 内存占用 | 低 | 略高(+3-8%) | | 多平台适配成本 | 高 | 低 |</p> <hr/> <h3 id="六适用场景决策树"><strong>六、适用场景决策树</strong></h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>是否需要以下特性？
+├─ 单元测试 → 需要DI
+├─ 多平台构建 → 需要DI  
+├─ 模块热替换 → 需要DI
+├─ 长期维护 → 需要DI
+└─ 快速原型 → 传统方式更合适
+</code></pre></div></div> <p>依赖注入在 Godot 中特别适合中大型项目，通过解耦实现更好的架构控制。对于小型项目，直接使用 <code class="language-plaintext highlighter-rouge">get_node()</code> 和单例仍是合理选择。关键在于根据项目规模灵活选择架构方案。</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="Godot"/><category term="GDScript"/><category term="note"/><summary type="html"><![CDATA[this is what included plotly.js code could look like]]></summary></entry><entry><title type="html">手册学习之最佳实践</title><link href="https://uifj.github.io/blog/2025/%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/" rel="alternate" type="text/html" title="手册学习之最佳实践"/><published>2025-04-02T00:00:00+00:00</published><updated>2025-04-02T00:00:00+00:00</updated><id>https://uifj.github.io/blog/2025/%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5</id><content type="html" xml:base="https://uifj.github.io/blog/2025/%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://docs.godotengine.org/  基于官方文档4.4
+</code></pre></div></div> <h2 id="一最佳实践">一、最佳实践</h2> <p>==前言：依赖于<strong>面向对象</strong>设计原则，使用<strong>单一职责</strong>和<strong>封装方法</strong>==</p> <h3 id="1面向对象设计原则">1.面向对象设计原则</h3> <p>简单来说，就是将客观世界存在或不存在的概念通过抽象成一个个的个体，通过使用编程操作这些对象。</p> <p>关键概念：<strong>对象是类的实例。</strong> 三大特征：<strong>封装、继承、多态</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>封装就是将类中的需求拆分成其他类，继承就是继承父类拥有的内容，多态就是重写父类的内容。
+</code></pre></div></div> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>面向对象程序设计（英语：Object-oriented programming，缩写：OOP）是种具有对象概念的编程典范，同时也是一种程序开发的抽象方针。它可能包含数据、特性、代码与方法。对象则指的是类（class）的实例。它将对象作为程序的基本单元，将程序和数据封装其中，以提高软件的重用性、灵活性和扩展性，对象里的程序可以访问及经常修改对象相关连的数据。在面向对象程序编程里，计算机程序会被设计成彼此相关的对象。
+</code></pre></div></div> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://blog.csdn.net/qq_16856917/article/details/90384526 通过游戏设计的方式学习知识
+</code></pre></div></div> <h3 id="2单一职责原则">2.单一职责原则</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(Single Responsibility Principle, SRP) 单一职责要求：**一个类或模块应该有且只有一个引起它变化的原因**。
+</code></pre></div></div> <p><strong>下面的代码的问题：​</strong></p> <ul> <li><code class="language-plaintext highlighter-rouge">Player</code> 类同时负责管理玩家的健康值和绘制血条的界面逻辑。</li> <li>如果未来需要修改血条样式或健康值的计算方式，都需要修改同一个类，增加了耦合性。 <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 玩家类，同时管理数据和界面逻辑</span>
+<span class="k">class</span> <span class="nc">Player</span><span class="p">:</span>
+  <span class="k">var</span> <span class="n">health</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">100</span>
+
+  <span class="c1"># 处理伤害</span>
+  <span class="k">func</span> <span class="nf">take_damage</span><span class="p">(</span><span class="n">amount</span><span class="p">:</span> <span class="kt">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+      <span class="n">health</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">health</span> <span class="o">-</span> <span class="n">amount</span><span class="p">)</span>
+
+  <span class="c1"># 绘制血条到屏幕（界面逻辑）</span>
+  <span class="k">func</span> <span class="nf">draw_health_bar</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">"绘制血条："</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">health</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"/100"</span><span class="p">)</span>
+</code></pre></div> </div> </li> </ul> <p><strong>遵循 SRP 的改进：​</strong></p> <ul> <li><code class="language-plaintext highlighter-rouge">Player</code> 类只管理数据，<code class="language-plaintext highlighter-rouge">HealthUI</code> 类只处理显示逻辑。</li> <li>修改血条样式不会影响玩家数据逻辑，反之亦然。 ```gdscript <h1 id="玩家类只负责健康值管理">玩家类：只负责健康值管理</h1> <p>class Player: var health: int = 100</p> <p>func take_damage(amount: int) -&gt; void: health = max(0, health - amount)</p> </li> </ul> <h1 id="界面类只负责健康值的显示">界面类：只负责健康值的显示</h1> <p>class HealthUI: static func draw_health_bar(player: Player) -&gt; void: print(“绘制血条：”, str(player.health) + “/100”)</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+==单一职责，推荐通过组合的方式，将不同的类结合起来，避免过高的耦合。==
+
+
+### 2.封装
+	是面向对象编程的核心概念之一，重点在于：
+1. 将数据与操作数据的方法绑定。
+2. 限制从外部直接访问操作对象内部的数据。
+
+**未封装的代码问题：​**
+- `health` 直接暴露，外部可能赋予非法值（如负数）。
+``` gdscript
+class Player:
+    var health: int = 100
+
+# 外部可以直接修改 health，可能导致非法值
+var player = Player.new()
+player.health = -50  # 非法值，但无约束
+</code></pre></div></div> <p><strong>通过封装改进的代码：​</strong></p> <ul> <li><code class="language-plaintext highlighter-rouge">_health</code> 被设为“私有”（GDScript 中通过 <code class="language-plaintext highlighter-rouge">_</code> 前缀约定），外部无法直接修改。</li> <li>必须通过 <code class="language-plaintext highlighter-rouge">take_damage</code> 方法修改值，确保数值合法性（如伤害值必须为正数）。</li> <li>通过 <code class="language-plaintext highlighter-rouge">get_health</code> 方法提供只读访问。</li> </ul> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Player</span><span class="p">:</span>
+    <span class="k">var</span> <span class="n">_health</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">100</span>  <span class="c1"># 私有变量（约定以 _ 开头）</span>
+
+    <span class="c1"># 通过方法控制伤害逻辑</span>
+    <span class="k">func</span> <span class="nf">take_damage</span><span class="p">(</span><span class="n">amount</span><span class="p">:</span> <span class="kt">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">amount</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">_health</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">_health</span> <span class="o">-</span> <span class="n">amount</span><span class="p">)</span>
+
+    <span class="c1"># 提供只读访问</span>
+    <span class="k">func</span> <span class="nf">get_health</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">int</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_health</span>
+
+<span class="c1"># 使用封装的 Player 类</span>
+<span class="k">var</span> <span class="n">player</span> <span class="o">=</span> <span class="n">Player</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="n">player</span><span class="o">.</span><span class="n">take_damage</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">player</span><span class="o">.</span><span class="n">get_health</span><span class="p">())</span>  <span class="c1"># 输出 70</span>
+<span class="c1"># player._health = -10  # 无法直接访问（约定私有）</span>
+</code></pre></div></div> <h3 id="3单一职责与封装的结合">3.单一职责与封装的结合</h3> <p><strong>结合 SRP 和封装：</strong></p> <ul> <li><code class="language-plaintext highlighter-rouge">PlayerData</code> 类只负责管理数据，并通过封装保护 <code class="language-plaintext highlighter-rouge">_health</code>。</li> <li><code class="language-plaintext highlighter-rouge">PlayerUI</code> 类只负责显示逻辑。</li> <li>两者职责明确，且数据访问受控 ```gdscript <h1 id="玩家数据类srp--封装">玩家数据类（SRP + 封装）</h1> <p>class PlayerData: var _health: int = 100</p> <p>func take_damage(amount: int) -&gt; void: if amount &gt; 0: _health = max(0, _health - amount)</p> <p>func get_health() -&gt; int: return _health</p> </li> </ul> <h1 id="玩家界面类srp">玩家界面类（SRP）</h1> <p>class PlayerUI: static func update_health_display(player_data: PlayerData) -&gt; void: print(“当前生命值：”, player_data.get_health())</p> <h1 id="使用示例">使用示例</h1> <p>var player_data = PlayerData.new() var player_ui = PlayerUI</p> <p>player_data.take_damage(20) player_ui.update_health_display(player_data) # 输出 “当前生命值：80”</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+### 4. godot中面向对象的使用
+	Godot 引擎主要提供了两种创建可复用对象的方式：脚本和场景。
+
+#### 脚本Script
+引擎提供了内置的类，如 [Node](https://docs.godotengine.org/zh-cn/4.x/classes/class_node.html#class-node) 。你可以使用脚本**script**扩展这些类来创建派生类型，而**脚本script**是一种资源文件，用来告知引擎在某一内置类的基础上执行一系列初始化。
+
+Godot 的内部类可以将一个类的数据注册进一个名为 [ClassDB](https://docs.godotengine.org/zh-cn/4.x/classes/class_classdb.html#class-classdb) 的数据库，该数据库让我们可以在运行时访问类的信息。`ClassDB` 包含有关类的信息，例如：
+- 属性。
+- 方法。
+- 常量。
+- 信号。
+
+#### 场景Scence：
+场景的行为与类有很多相似之处，所以把场景看成一个类也是合理的。
+**场景是可复用、可实例化、可继承的节点组。add_child( )方法可添加子节点。** 场景Scence 用于组织节点，而节点又是对象，所以**场景的实例都是对象。**
+
+==场景就是对附着在根节点上的**脚本的扩展**，所以你可以将其解释为类的一部分。==
+
+
+### 5.场景组织Scence
+#### 核心设计原则
+1. ​**松耦合（Loose Coupling）​**
+    - 子节点不直接暴露访问点，由父节点中介管理引用。
+    - 节点应尽可能独立，减少对环境的依赖，便于重用。
+2. ​**数据内部化（Data Encapsulation）​**
+    - 关键数据应封装在场景内部，避免依赖外部上下文。
+    - 通过工具脚本自动生成配置警告，减少文档维护。
+3. ​**明确的入口点（Main 节点）​**
+    - 使用 `Main` 节点作为全局控制器，管理场景切换和核心逻辑。
+4. ​**单例与自动加载（Singleton &amp; Autoload）​**
+    - 全局系统（如游戏管理器）应定义为自动加载的单例。
+5. ​**节点树逻辑优先**
+    - 根据逻辑关系（而非空间位置）组织节点，避免不必要的父子依赖。
+
+#### 建立有效的关系
+	由于场景通常容易充满各种节点内容，所以如何建立组织关系很重要。
+
+**OOP编程中，需要保持松散的耦合，提高重用性。** 如果可以，尽量设计没有依赖关系的场景。
+
+如果场景必须与外部环境交互，那么有下面5种方式进行操作：
+1. **连接信号。** 缺点在于只能“响应”内容。信号名称通常是过去式动词，如“entered”“skill_activated”“item_collected”（已进入、已激活技能、已收集道具）。
+2. **调用方法。** 
+3. **初始化Callable属性。** Callable代表一个方法或一个独立函数的内置类型。
+4. **初始化Node或其他Object的引用。**
+5. **初始化NodePath。**
+
+此外，有经验后，更推荐使用**依赖注入**的方式去使用。
+
+
+#### 选择节点树结构
+
+	使用一个 Main节点作为入口节点。
+
+
+#### 代码示例：
+
+##### 5.1. 松耦合：父节点中介通信
+```gdscript
+# Parent 节点（parent.gd）
+extends Node
+
+@onready var left = $Left
+@onready var right = $Right/Receiver
+
+func _ready():
+    left.target = right  # 父节点传递引用
+
+
+# Left 节点（left.gd）
+extends Node
+var target: Node
+
+func execute():
+    if target:
+        target.do_something()  # 通过父节点中介调用
+
+
+# Right/Receiver 节点（receiver.gd）
+extends Node
+func do_something():
+    print("Right 节点被调用")
+</code></pre></div></div> <h5 id="52-工具脚本自动生成配置警告">5.2. 工具脚本：自动生成配置警告</h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 子节点（需依赖父节点的组件）</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="k">func</span> <span class="nf">_get_configuration_warnings</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">PackedStringArray</span><span class="p">:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">get_parent</span><span class="p">()</span><span class="o">.</span><span class="n">has_node</span><span class="p">(</span><span class="s2">"RequiredComponent"</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[</span><span class="s2">"需要父节点包含 RequiredComponent"</span><span class="p">]</span>
+    <span class="k">return</span> <span class="p">[]</span>
+</code></pre></div></div> <ul> <li>若父节点缺少 <code class="language-plaintext highlighter-rouge">RequiredComponent</code>，场景编辑器会显示警告图标。</li> </ul> <h5 id="53-main-节点与场景切换">5.3. Main 节点与场景切换</h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Main 节点（main.gd）</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="k">var</span> <span class="n">current_world</span><span class="p">:</span> <span class="n">Node</span>
+
+<span class="k">func</span> <span class="nf">_ready</span><span class="p">():</span>
+    <span class="n">load_world</span><span class="p">(</span><span class="s2">"res://world_1.tscn"</span><span class="p">)</span>
+
+<span class="k">func</span> <span class="nf">load_world</span><span class="p">(</span><span class="n">scene_path</span><span class="p">:</span> <span class="kt">String</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">current_world</span><span class="p">:</span>
+        <span class="n">current_world</span><span class="o">.</span><span class="n">queue_free</span><span class="p">()</span>  <span class="c1"># 卸载旧场景</span>
+    <span class="k">var</span> <span class="n">new_world</span> <span class="o">=</span> <span class="nb">load</span><span class="p">(</span><span class="n">scene_path</span><span class="p">)</span><span class="o">.</span><span class="n">instantiate</span><span class="p">()</span>
+    <span class="n">add_child</span><span class="p">(</span><span class="n">new_world</span><span class="p">)</span>
+    <span class="n">current_world</span> <span class="o">=</span> <span class="n">new_world</span>
+</code></pre></div></div> <h5 id="54-单例自动加载global-系统">5.4. 单例自动加载（Global 系统）</h5> <ol> <li>创建 <code class="language-plaintext highlighter-rouge">global.gd</code>，在 ​<strong>Project Settings &gt; Autoload</strong> 添加为单例。</li> </ol> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># global.gd</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="k">var</span> <span class="n">score</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">func</span> <span class="nf">add_score</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="kt">int</span><span class="p">):</span>
+    <span class="n">score</span> <span class="o">+=</span> <span class="n">value</span>
+</code></pre></div></div> <h5 id="55-避免父子依赖使用top_level">5.5. 避免父子依赖：使用 <code class="language-plaintext highlighter-rouge">top_level</code></h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 子节点忽略父节点变换</span>
+<span class="k">extends</span> <span class="n">Sprite2D</span>
+
+<span class="k">func</span> <span class="nf">_ready</span><span class="p">():</span>
+    <span class="n">top_level</span> <span class="o">=</span> <span class="bp">true</span>  <span class="c1"># 独立于父节点的位置</span>
+</code></pre></div></div> <h5 id="56-依赖注入的方式">5.6. 依赖注入的方式</h5> <hr/> <h4 id="关键实践">关键实践</h4> <ol> <li>​<strong>场景独立工作能力</strong> <ul> <li>每个场景应能独立运行（通过工具脚本检查依赖）。</li> </ul> </li> <li>​<strong>节点移动策略</strong> <ul> <li>切换场景时，关键节点（如玩家）可暂时移动到 <code class="language-plaintext highlighter-rouge">Main</code> 节点下： <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 切换房间前保留玩家</span>
+<span class="k">var</span> <span class="n">player</span> <span class="o">=</span> <span class="n">current_room</span><span class="o">.</span><span class="n">get_node</span><span class="p">(</span><span class="s2">"Player"</span><span class="p">)</span>
+<span class="n">remove_child</span><span class="p">(</span><span class="n">current_room</span><span class="p">)</span>
+<span class="n">player</span><span class="o">.</span><span class="n">reparent</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>  <span class="c1"># 移动到 Main 节点</span>
+<span class="n">current_room</span><span class="o">.</span><span class="n">queue_free</span><span class="p">()</span>
+</code></pre></div> </div> </li> </ul> </li> <li>​<strong>网络游戏结构</strong> <ul> <li>分离客户端和服务端逻辑节点，避免冗余数据同步。</li> </ul> </li> <li>​<strong>声明式解耦</strong> <ul> <li>使用 <code class="language-plaintext highlighter-rouge">Node</code> 作为中间层，阻断不必要的变换继承。</li> </ul> </li> </ol> <h4 id="设计哲学">设计哲学</h4> <ul> <li>​<strong>SOLID 原则</strong>：尤其是单一职责（<code class="language-plaintext highlighter-rouge">Main</code>、<code class="language-plaintext highlighter-rouge">World</code>、<code class="language-plaintext highlighter-rouge">GUI</code> 分离）。</li> <li>​<strong>DRY</strong>：通过单例和父节点中介复用逻辑。</li> <li>​<strong>KISS/YAGNI</strong>：避免过度设计，按需实现功能。</li> </ul> <h3 id="6怎么选择场景与脚本">6.怎么选择场景与脚本</h3> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">const</span> <span class="n">MyNode</span> <span class="o">=</span> <span class="nb">preload</span><span class="p">(</span><span class="s2">"my_node.gd"</span><span class="p">)</span>
+<span class="k">const</span> <span class="n">MyScene</span> <span class="o">=</span> <span class="nb">preload</span><span class="p">(</span><span class="s2">"my_scene.tscn"</span><span class="p">)</span>
+<span class="k">var</span> <span class="n">node</span> <span class="o">=</span> <span class="n">Node</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="k">var</span> <span class="n">my_node</span> <span class="o">=</span> <span class="n">MyNode</span><span class="o">.</span><span class="n">new</span><span class="p">()</span> <span class="c1"># Same method call.</span>
+<span class="k">var</span> <span class="n">my_scene</span> <span class="o">=</span> <span class="n">MyScene</span><span class="o">.</span><span class="n">instantiate</span><span class="p">()</span> <span class="c1"># Different method call.</span>
+<span class="k">var</span> <span class="n">my_inherited_scene</span> <span class="o">=</span> <span class="n">MyScene</span><span class="o">.</span><span class="n">instantiate</span><span class="p">(</span><span class="n">PackedScene</span><span class="o">.</span><span class="n">GEN_EDIT_STATE_MAIN</span><span class="p">)</span> <span class="c1"># Create scene inheriting from MyScene.</span>
+</code></pre></div></div> <p>由于引擎和脚本Script代码之间的速度差异, 脚本的运行速度将比场景慢一些. 节点越大和越复杂, 将它构建为场景。</p> <p>脚本和场景之间，更推荐创建<strong>场景</strong>。</p> <p>==相比于直接在Script中创建节点Node，使用场景的<strong>PackedScene</strong>有助于避免这个性能问题。PackedScene（场景包）是场景继承的基础类型，定义了使用序列化数据创建对象的资源。==</p> <h4 id="脚本script与场景scence的适用场景">脚本Script与场景Scence的适用场景</h4> <ol> <li>​<strong>可重用工具</strong> - 应使用<strong>脚本</strong>，并添加 <code class="language-plaintext highlighter-rouge">class_name</code> 自定义类名和图标，全局可见，便于跨项目复用。 <ul> <li>轻量级，适合提供通用功能（如工具类、算法库）。</li> </ul> </li> <li>​<strong>特定游戏概念</strong> - 应使用<strong>场景</strong>，便于可视化编辑，数据更安全（节点属性可配置）。 <ul> <li>适合游戏实体（如角色、UI界面）、关卡设计、节点树结构清晰。</li> </ul> </li> <li>​<strong>通过脚本类命名场景</strong> - 在脚本中预加载场景并定义为常量，使其像类一样被引用。 <ul> <li>提高代码可读性，避免硬编码路径（推荐类名，避免路径字符串）。</li> </ul> </li> </ol> <h4 id="代码示例">代码示例</h4> <h5 id="61-可重用工具脚本">6.1. ​<strong>可重用工具脚本</strong></h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># math_utils.gd（工具脚本）</span>
+<span class="err">@</span><span class="k">tool</span> <span class="c1"># 允许在编辑器中运行</span>
+<span class="k">class_name</span> <span class="n">MathUtils</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="c1"># 自定义图标（在脚本属性中设置）</span>
+<span class="k">static</span> <span class="k">func</span> <span class="nf">clamp_value</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="kt">float</span><span class="p">,</span> <span class="n">min_val</span><span class="p">:</span> <span class="kt">float</span><span class="p">,</span> <span class="n">max_val</span><span class="p">:</span> <span class="kt">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">float</span><span class="p">:</span>
+    <span class="k">return</span> <span class="nb">clamp</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">min_val</span><span class="p">,</span> <span class="n">max_val</span><span class="p">)</span>
+</code></pre></div></div> <h5 id="62-游戏专属场景">6.2. ​<strong>游戏专属场景</strong></h5> <p>创建 <code class="language-plaintext highlighter-rouge">player.tscn</code> 场景：</p> <ul> <li>包含 <code class="language-plaintext highlighter-rouge">CharacterBody2D</code> 节点、碰撞体、精灵等。</li> <li>导出属性（如移动速度）供非程序员在编辑器调整。</li> </ul> <h5 id="63-通过脚本类引用场景">6.3. ​<strong>通过脚本类引用场景</strong></h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># game_concepts.gd（定义场景常量）</span>
+<span class="k">class_name</span> <span class="n">GameConcepts</span>
+<span class="k">extends</span> <span class="n">RefCounted</span>
+
+<span class="k">const</span> <span class="n">PlayerScene</span> <span class="o">=</span> <span class="nb">preload</span><span class="p">(</span><span class="s2">"res://player.tscn"</span><span class="p">)</span>
+<span class="k">const</span> <span class="n">EnemyScene</span> <span class="o">=</span> <span class="nb">preload</span><span class="p">(</span><span class="s2">"res://enemy.tscn"</span><span class="p">)</span>
+
+<span class="c1"># main.gd（主脚本）</span>
+<span class="k">extends</span> <span class="n">Node</span>
+<span class="k">func</span> <span class="nf">_ready</span><span class="p">():</span>
+    <span class="k">var</span> <span class="n">player</span> <span class="o">=</span> <span class="n">GameConcepts</span><span class="o">.</span><span class="n">PlayerScene</span><span class="o">.</span><span class="n">instantiate</span><span class="p">()</span>
+    <span class="n">add_child</span><span class="p">(</span><span class="n">player</span><span class="p">)</span>
+</code></pre></div></div> <h3 id="7自动加载autodload与常规节点">7.自动加载（Autodload）与常规节点</h3> <h4 id="自动加载">自动加载</h4> <ol> <li>​<strong>优点</strong> <ul> <li>​<strong>全局访问</strong>：适用于需要在多个场景间共享的系统（如任务、对话系统）。</li> <li>​<strong>简化代码</strong>：避免重复初始化通用功能（如存档管理、全局配置）。</li> </ul> </li> <li>​<strong>缺点</strong> <ul> <li>​<strong>全局状态</strong>：可能导致耦合性高，难以追踪错误。</li> <li>​<strong>资源浪费</strong>：预分配资源可能占用内存（如音频节点池）。</li> <li>​<strong>违反封装</strong>：其他场景可能直接修改全局数据，破坏安全性。</li> </ul> </li> </ol> <p>==<strong>解决方案</strong>（避免滥用自动加载）==</p> <ol> <li>​<strong>场景内部管理</strong>：每个场景自行管理资源（如音效播放器）。</li> <li>​<strong>静态工具类</strong>：通过 <code class="language-plaintext highlighter-rouge">class_name</code> + <code class="language-plaintext highlighter-rouge">static</code> 方法共享功能，无需实例化。</li> <li>​<strong>资源文件</strong>：用 <code class="language-plaintext highlighter-rouge">Resource</code> 类型共享数据（如游戏配置）。</li> </ol> <h4 id="代码示例-1">代码示例</h4> <h5 id="71-自动加载的正确使用全局任务系统">7.1. ​<strong>自动加载的正确使用：全局任务系统</strong></h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># autoloads/task_manager.gd</span>
+<span class="k">class_name</span> <span class="n">TaskManager</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="k">var</span> <span class="n">active_tasks</span><span class="p">:</span> <span class="kt">Array</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">func</span> <span class="nf">add_task</span><span class="p">(</span><span class="n">task_name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+    <span class="n">active_tasks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">task_name</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"任务添加:"</span><span class="p">,</span> <span class="n">task_name</span><span class="p">)</span>
+
+<span class="c1"># 在其他场景中调用</span>
+<span class="n">TaskManager</span><span class="o">.</span><span class="n">add_task</span><span class="p">(</span><span class="s2">"击败BOSS"</span><span class="p">)</span>
+</code></pre></div></div> <h5 id="72-场景内部管理音效避免全局状态">7.2. ​<strong>场景内部管理音效（避免全局状态）​</strong></h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># scene_with_sound.tscn 的脚本</span>
+<span class="k">extends</span> <span class="n">Node2D</span>
+
+<span class="err">@</span><span class="k">onready</span> <span class="k">var</span> <span class="n">audio_players</span><span class="p">:</span> <span class="kt">Array</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="o">$</span><span class="n">AudioStreamPlayer1</span><span class="p">,</span>
+    <span class="o">$</span><span class="n">AudioStreamPlayer2</span>
+<span class="p">]</span>
+
+<span class="k">func</span> <span class="nf">play_sound</span><span class="p">(</span><span class="n">sound_path</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">player</span> <span class="ow">in</span> <span class="n">audio_players</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">player</span><span class="o">.</span><span class="n">playing</span><span class="p">:</span>
+            <span class="n">player</span><span class="o">.</span><span class="n">stream</span> <span class="o">=</span> <span class="nb">load</span><span class="p">(</span><span class="n">sound_path</span><span class="p">)</span>
+            <span class="n">player</span><span class="o">.</span><span class="n">play</span><span class="p">()</span>
+            <span class="k">break</span>
+
+<span class="c1"># 调用示例（仅在当前场景内）</span>
+<span class="n">play_sound</span><span class="p">(</span><span class="s2">"res://coin_pickup.ogg"</span><span class="p">)</span>
+</code></pre></div></div> <h5 id="73-静态工具类替代自动加载">7.3. ​<strong>静态工具类替代自动加载</strong></h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># math_utils.gd（工具类，无需自动加载）</span>
+<span class="k">class_name</span> <span class="n">MathUtils</span>
+<span class="k">extends</span> <span class="kt">Object</span>  <span class="c1"># 无需继承Node，直接作为静态工具类</span>
+
+<span class="k">static</span> <span class="k">func</span> <span class="nf">lerp</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="kt">float</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="kt">float</span><span class="p">,</span> <span class="n">t</span><span class="p">:</span> <span class="kt">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">float</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span> <span class="o">*</span> <span class="nb">clamp</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">)</span>
+
+<span class="c1"># 调用示例</span>
+<span class="k">var</span> <span class="n">value</span> <span class="o">=</span> <span class="n">MathUtils</span><span class="o">.</span><span class="nb">lerp</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>  <span class="c1"># 输出50</span>
+</code></pre></div></div> <h5 id="74-资源文件共享数据">7.4. ​<strong>资源文件共享数据</strong></h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># game_config.gd（Resource类型）</span>
+<span class="k">class_name</span> <span class="n">GameConfig</span>
+<span class="k">extends</span> <span class="n">Resource</span>
+
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">player_speed</span><span class="p">:</span> <span class="kt">float</span> <span class="o">=</span> <span class="mf">300.0</span>
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">volume</span><span class="p">:</span> <span class="kt">float</span> <span class="o">=</span> <span class="mf">0.8</span>
+
+<span class="c1"># 保存/加载配置</span>
+<span class="k">var</span> <span class="n">config</span> <span class="o">=</span> <span class="n">GameConfig</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="n">ResourceSaver</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="s2">"res://game_config.tres"</span><span class="p">)</span>
+<span class="k">var</span> <span class="n">loaded_config</span> <span class="o">=</span> <span class="nb">load</span><span class="p">(</span><span class="s2">"res://game_config.tres"</span><span class="p">)</span>
+</code></pre></div></div> <h4 id="何时使用自动加载">何时使用自动加载？</h4> <table> <thead> <tr> <th>​<strong>场景</strong></th> <th>​<strong>推荐方案</strong></th> <th>​<strong>示例</strong></th> </tr> </thead> <tbody> <tr> <td>全局任务/对话系统</td> <td>自动加载</td> <td><code class="language-plaintext highlighter-rouge">TaskManager</code></td> </tr> <tr> <td>场景独立音效管理</td> <td>场景内部管理</td> <td>每个场景的 <code class="language-plaintext highlighter-rouge">audio_players</code></td> </tr> <tr> <td>数学工具类</td> <td>静态工具类（<code class="language-plaintext highlighter-rouge">static</code>）</td> <td><code class="language-plaintext highlighter-rouge">MathUtils</code></td> </tr> <tr> <td>共享配置数据</td> <td>资源文件（<code class="language-plaintext highlighter-rouge">Resource</code>）</td> <td><code class="language-plaintext highlighter-rouge">GameConfig</code></td> </tr> </tbody> </table> <h3 id="8避免任何时候使用节点node性能优化">8.避免任何时候使用节点Node（性能优化）</h3> <p>Godot 提供了三种更加轻量化的对象：</p> <ol> <li><a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_object.html#class-object">Object</a>：终极轻量级对象，原始的 Object 必须使用<strong>手动内存管理</strong>。参考<a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_tree.html#class-tree">Tree</a> 节点示例。</li> <li><a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_refcounted.html#class-refcounted">RefCounted</a>：只比 Object 稍微复杂一点。它们会记录对自己的引用，只有当对自己没有另外的引用存在时，才会删除加载的内存。参考<a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_fileaccess.html#class-fileaccess">FileAccess</a> 对象。</li> <li><a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_resource.html#class-resource">Resource</a> ：只比 RefCounted 稍微复杂一点。它们天然具有将其对象属性序列化（即保存）到 Godot 资源文件，或从 Godot 资源文件中反序列化（即加载）的能力。 参考<a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_audioeffect.html#class-audioeffect">AudioEffect</a> 类。<strong>相比传统存储数据更好，不仅轻量，而且兼容性还好。</strong></li> </ol> <p><strong>关键原则：</strong></p> <ol> <li>​<strong>优先轻量级对象</strong>： <ul> <li>如果不需要节点树、信号或物理特性，使用 <code class="language-plaintext highlighter-rouge">Object</code>/<code class="language-plaintext highlighter-rouge">RefCounted</code>/<code class="language-plaintext highlighter-rouge">Resource</code>。</li> </ul> </li> <li>​<strong>减少节点数量</strong>： <ul> <li>避免为纯数据或工具逻辑创建节点。</li> </ul> </li> <li>​<strong>利用 <code class="language-plaintext highlighter-rouge">Resource</code> 的序列化</strong>： <ul> <li>将配置、预制体等数据保存为 <code class="language-plaintext highlighter-rouge">.tres</code> 文件，方便编辑和复用。</li> </ul> </li> </ol> <h4 id="代码示例-2">代码示例</h4> <h5 id="81object最轻量级的基础类"> <strong>8.1.<code class="language-plaintext highlighter-rouge">Object</code>：最轻量级的基础类</strong></h5> <ul> <li>​<strong>适用场景</strong>：需要自定义数据结构，无需节点功能（如树结构、生命周期方法）。</li> <li>​<strong>特点</strong>： <ul> <li>手动内存管理（需调用 <code class="language-plaintext highlighter-rouge">free()</code>）。</li> <li>适合底层逻辑（如数据模型、工具类）。</li> </ul> </li> </ul> <p><strong>GDScript 示例：​</strong></p> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 自定义数据类（继承 Object）</span>
+<span class="k">class_name</span> <span class="n">DataModel</span>
+<span class="k">extends</span> <span class="kt">Object</span>
+
+<span class="k">var</span> <span class="n">id</span><span class="p">:</span> <span class="kt">int</span>
+<span class="k">var</span> <span class="n">name</span><span class="p">:</span> <span class="kt">String</span>
+
+<span class="k">func</span> <span class="nf">_init</span><span class="p">(</span><span class="n">p_id</span><span class="p">:</span> <span class="kt">int</span><span class="p">,</span> <span class="n">p_name</span><span class="p">:</span> <span class="kt">String</span><span class="p">):</span>
+    <span class="n">id</span> <span class="o">=</span> <span class="n">p_id</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">p_name</span>
+
+<span class="c1"># 使用示例</span>
+<span class="k">var</span> <span class="n">model</span> <span class="o">=</span> <span class="n">DataModel</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">"Player"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>  <span class="c1"># 输出 "Player"</span>
+<span class="n">model</span><span class="o">.</span><span class="n">free</span><span class="p">()</span>       <span class="c1"># 手动释放内存</span>
+</code></pre></div></div> <hr/> <h5 id="8-2refcounted自动内存管理的引用计数类"> <strong>8. 2. <code class="language-plaintext highlighter-rouge">RefCounted</code>：自动内存管理的引用计数类</strong></h5> <ul> <li>​<strong>适用场景</strong>：需要自动内存管理，但无需序列化或编辑器集成。</li> <li>​<strong>特点</strong>： <ul> <li>自动释放内存（引用计数归零时）。</li> <li>适合临时数据容器或工具类。</li> </ul> </li> </ul> <p><strong>GDScript 示例：​</strong></p> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 引用计数类（继承 RefCounted）</span>
+<span class="k">class_name</span> <span class="n">GameTimer</span>
+<span class="k">extends</span> <span class="n">RefCounted</span>
+
+<span class="k">var</span> <span class="n">start_time</span><span class="p">:</span> <span class="kt">int</span>
+
+<span class="k">func</span> <span class="nf">start</span><span class="p">():</span>
+    <span class="n">start_time</span> <span class="o">=</span> <span class="n">Time</span><span class="o">.</span><span class="n">get_ticks_msec</span><span class="p">()</span>
+
+<span class="k">func</span> <span class="nf">get_elapsed_time</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">int</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">Time</span><span class="o">.</span><span class="n">get_ticks_msec</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span>
+
+<span class="c1"># 使用示例</span>
+<span class="k">var</span> <span class="n">timer</span> <span class="o">=</span> <span class="n">GameTimer</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="n">timer</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">timer</span><span class="o">.</span><span class="n">get_elapsed_time</span><span class="p">())</span>  <span class="c1"># 输出经过的毫秒数</span>
+<span class="c1"># 无需手动调用 free()</span>
+</code></pre></div></div> <h5 id="83resource可序列化的数据类"> <strong>8.​3. <code class="language-plaintext highlighter-rouge">Resource</code>：可序列化的数据类</strong></h5> <ul> <li>​<strong>适用场景</strong>：需要保存/加载数据，或在编辑器暴露属性。</li> <li>​<strong>特点</strong>： <ul> <li>支持序列化（保存为 <code class="language-plaintext highlighter-rouge">.tres</code> 文件）。</li> <li>属性可在检查器中编辑。</li> <li>适合配置、技能数据、预制体等。</li> </ul> </li> </ul> <p><strong>GDScript 示例：​</strong></p> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 游戏配置（继承 Resource）</span>
+<span class="k">class_name</span> <span class="n">GameConfig</span>
+<span class="k">extends</span> <span class="n">Resource</span>
+
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">player_speed</span><span class="p">:</span> <span class="kt">float</span> <span class="o">=</span> <span class="mf">300.0</span>
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">volume</span><span class="p">:</span> <span class="kt">float</span> <span class="o">=</span> <span class="mf">0.8</span>
+
+<span class="c1"># 保存配置</span>
+<span class="k">func</span> <span class="nf">save_config</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="kt">String</span><span class="p">):</span>
+    <span class="n">ResourceSaver</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
+
+<span class="c1"># 使用示例</span>
+<span class="k">var</span> <span class="n">config</span> <span class="o">=</span> <span class="n">GameConfig</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="n">config</span><span class="o">.</span><span class="n">player_speed</span> <span class="o">=</span> <span class="mf">350.0</span>
+<span class="n">config</span><span class="o">.</span><span class="n">save_config</span><span class="p">(</span><span class="s2">"res://game_config.tres"</span><span class="p">)</span>
+</code></pre></div></div> <hr/> <h5 id="何时避免使用节点">​<strong>何时避免使用节点？</strong></h5> <table> <thead> <tr> <th>​<strong>场景</strong></th> <th>​<strong>替代方案</strong></th> <th>​<strong>示例</strong></th> </tr> </thead> <tbody> <tr> <td>纯数据存储（无可视化）</td> <td><code class="language-plaintext highlighter-rouge">Resource</code></td> <td>游戏配置、技能数据</td> </tr> <tr> <td>临时数据容器（无需树结构）</td> <td><code class="language-plaintext highlighter-rouge">RefCounted</code></td> <td>计时器、网络请求结果</td> </tr> <tr> <td>底层工具类（无需生命周期）</td> <td><code class="language-plaintext highlighter-rouge">Object</code></td> <td>数学工具、自定义数据结构</td> </tr> </tbody> </table> <h5 id="代码对比节点-vs-轻量级对象场景存储玩家数据">​<strong>代码对比：节点 vs 轻量级对象</strong>（场景：存储玩家数据）</h5> <p><strong>使用节点（低效）：​</strong></p> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 节点方式（浪费性能）</span>
+<span class="k">class_name</span> <span class="n">PlayerDataNode</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="k">var</span> <span class="n">health</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="k">var</span> <span class="n">level</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">1</span>
+</code></pre></div></div> <p><strong>使用 <code class="language-plaintext highlighter-rouge">Resource</code>（高效且可序列化）：​</strong></p> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Resource 方式</span>
+<span class="k">class_name</span> <span class="n">PlayerData</span>
+<span class="k">extends</span> <span class="n">Resource</span>
+
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">health</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">level</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">1</span>
+</code></pre></div></div> <h3 id="9godot接口">9.Godot接口</h3> <h4 id="关键原则"><strong>关键原则</strong></h4> <ol> <li>​<strong>引用获取</strong> <ul> <li>优先使用 <code class="language-plaintext highlighter-rouge">@onready</code> 缓存节点，避免动态查找。</li> <li>复杂依赖用 <code class="language-plaintext highlighter-rouge">@export</code> 在编辑器配置，而非硬编码路径。</li> </ul> </li> <li>​<strong>数据访问</strong> <ul> <li>鸭子类型灵活但危险，必要时用 <code class="language-plaintext highlighter-rouge">has_method</code> 或类型断言保护。</li> <li>全局数据用自动加载，场景数据用 <code class="language-plaintext highlighter-rouge">Resource</code>。</li> </ul> </li> <li>​<strong>解耦设计</strong> <ul> <li>使用 Callable 或信号（<code class="language-plaintext highlighter-rouge">Signal</code>）减少直接依赖。</li> <li>通过组（Group）或命名约定实现松散耦合。</li> </ul> </li> </ol> <h4 id="获取对象引用就是操作该对象">获取对象引用（就是操作该对象）</h4> <ul> <li>​<strong>直接属性/方法访问</strong>：编辑器阶段加载，适合静态资源。 ``` <h1 id="适用于node-resource-和-refcounted-这些类">适用于Node 、Resource 和 RefCounted 这些类</h1> <p>var obj = node.object # Property access. 访问节点的属性 var obj = node.get_object() # Method access. 访问节点的方法</p> </li> </ul> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+- ​**预加载**：编辑器阶段加载，适合静态资源。
+- ​**动态加载**：运行时加载，适合动态资源。
+</code></pre></div></div> <h1 id="预加载场景脚本编辑器阶段">预加载场景/脚本（编辑器阶段）</h1> <p>const MyScene = preload(“res://my_scene.tscn”) const MyScript = preload(“res://my_script.gd”)</p> <h1 id="运行时动态加载">运行时动态加载</h1> <p>var dynamic_resource = load(“res://dynamic_data.tres”)</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+- ​**避免动态查找**：使用 `@onready` 缓存节点引用。
+```gdscript
+# 慢：动态查找（每帧调用性能差）
+func _process(delta):
+    print(get_node("ChildNode"))
+
+# 快：缓存引用
+@onready var child_node = $ChildNode
+func _process(delta):
+    print(child_node)
+</code></pre></div></div> <ul> <li>​<strong>适用场景</strong>：通过检查器Interceptor配置节点依赖。导出变量（Editor 配置） <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">enemy</span><span class="p">:</span> <span class="n">Node</span>  <span class="c1"># 在编辑器中拖拽赋值</span>
+<span class="k">func</span> <span class="nf">attack</span><span class="p">():</span>
+  <span class="k">if</span> <span class="n">enemy</span><span class="p">:</span>
+      <span class="n">enemy</span><span class="o">.</span><span class="n">take_damage</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</code></pre></div> </div> </li> <li>​<strong>适用场景</strong>：全局管理器（如游戏状态、音效），全局自动加载（单例）​。 ```gdscript <h1 id="autoloadsglobalgd">autoloads/global.gd</h1> <p>var score: int = 0</p> </li> </ul> <h1 id="其他脚本中访问">其他脚本中访问</h1> <p>func add_score(): Global.score += 10</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+#### 访问数据或逻辑
+- ​**直接调用属性/方法**：不检查类型，运行时动态解析。（**Duck Typing**）
+```gdscript
+# 假设目标节点有 `health` 属性和 `take_damage` 方法
+var target = $Enemy
+target.health -= 10      # 直接修改属性（可能报错）
+target.take_damage(10)   # 直接调用方法（可能报错）
+</code></pre></div></div> <ul> <li>​<strong>使用 <code class="language-plaintext highlighter-rouge">has_method</code> 或 <code class="language-plaintext highlighter-rouge">is_in_group</code></strong>：避免调用不存在的方法。（<strong>安全方法检查</strong>） <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="n">target</span> <span class="o">=</span> <span class="o">$</span><span class="n">Enemy</span>
+<span class="k">if</span> <span class="n">target</span><span class="o">.</span><span class="n">has_method</span><span class="p">(</span><span class="s2">"take_damage"</span><span class="p">):</span>
+  <span class="n">target</span><span class="o">.</span><span class="n">take_damage</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">target</span><span class="o">.</span><span class="n">is_in_group</span><span class="p">(</span><span class="s2">"enemies"</span><span class="p">):</span>
+  <span class="n">target</span><span class="o">.</span><span class="n">destroy</span><span class="p">()</span>
+</code></pre></div> </div> </li> <li><strong>is 关键字</strong>：确保对象类型后再操作。<strong>类型断言（Type Casting）​</strong> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="n">target</span> <span class="o">=</span> <span class="o">$</span><span class="n">Enemy</span>
+<span class="k">if</span> <span class="n">target</span> <span class="k">is</span> <span class="n">CharacterBody2D</span><span class="p">:</span>
+ <span class="n">target</span><span class="o">.</span><span class="n">velocity</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="o">-</span><span class="mi">500</span>  <span class="c1"># 安全访问</span>
+</code></pre></div> </div> </li> <li>​<strong>解耦调用</strong>：将方法动态绑定到外部。<strong>Callable 委托逻辑</strong> ```gdscript <h1 id="子节点定义">子节点定义</h1> <p>class Child: var callback: Callable func execute(): if callback: callback.call()</p> </li> </ul> <h1 id="父节点绑定方法">父节点绑定方法</h1> <p>@onready var child = $Child func _ready(): child.callback = _on_child_execute func _on_child_execute(): print(“Child executed!”)</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+#### 代码示例
+#####  9.​1. 场景：攻击敌人
+```gdscript
+# Enemy 节点脚本（enemy.gd）
+extends CharacterBody2D
+
+var health: int = 100
+
+func take_damage(amount: int):
+    health -= amount
+    if health &lt;= 0:
+        queue_free()
+
+# Player 节点脚本（player.gd）
+extends CharacterBody2D
+
+@export var attack_target: Node  # 在编辑器中拖拽赋值
+
+func _input(event):
+    if event.is_action_pressed("attack"):
+        if attack_target and attack_target.has_method("take_damage"):
+            attack_target.take_damage(20)
+</code></pre></div></div> <h5 id="92场景动态加载资源"> 9.​2. 场景：动态加载资源</h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 动态加载并实例化场景</span>
+<span class="k">var</span> <span class="n">enemy_scene</span> <span class="o">=</span> <span class="nb">load</span><span class="p">(</span><span class="s2">"res://enemy.tscn"</span><span class="p">)</span>
+<span class="k">var</span> <span class="n">new_enemy</span> <span class="o">=</span> <span class="n">enemy_scene</span><span class="o">.</span><span class="n">instantiate</span><span class="p">()</span>
+<span class="n">add_child</span><span class="p">(</span><span class="n">new_enemy</span><span class="p">)</span>
+</code></pre></div></div> <h3 id="10godot通知与回调函数">10.Godot通知与回调函数</h3> <h4 id="常用回调函数"><strong>常用回调函数</strong></h4> <table> <thead> <tr> <th>​<strong>回调函数</strong></th> <th>​<strong>用途</strong></th> <th>​<strong>触发时机</strong></th> </tr> </thead> <tbody> <tr> <td><code class="language-plaintext highlighter-rouge">_ready()</code></td> <td>节点及其子节点已完全初始化（场景树构建完成）</td> <td>节点首次加入场景树，且所有子节点已 <code class="language-plaintext highlighter-rouge">_ready</code> 后触发</td> </tr> <tr> <td><code class="language-plaintext highlighter-rouge">_process(delta)</code></td> <td>每帧更新逻辑（依赖帧率，适合非物理逻辑）</td> <td>每帧触发（帧率不固定）</td> </tr> <tr> <td><code class="language-plaintext highlighter-rouge">_physics_process(delta)</code></td> <td>物理更新逻辑（固定时间步长，适合物理计算）</td> <td>每物理帧触发（默认每秒 60 次）</td> </tr> <tr> <td><code class="language-plaintext highlighter-rouge">_input(event)</code></td> <td>处理输入事件</td> <td>每输入事件触发（包括键盘、鼠标等）</td> </tr> <tr> <td><code class="language-plaintext highlighter-rouge">_unhandled_input(event)</code></td> <td>处理未被其他节点处理的输入事件</td> <td>输入事件未被消费时触发</td> </tr> </tbody> </table> <h4 id="对比-init初始化导出">对比 init、初始化、导出</h4> <h5 id="_init">​<strong><code class="language-plaintext highlighter-rouge">_init()</code></strong></h5> <ul> <li>​<strong>用途</strong>：对象构造时初始化属性（无场景树依赖）。</li> <li>​<strong>触发时机</strong>：对象实例化时（节点未加入场景树）。</li> <li>​<strong>代码示例</strong>： ``` <h1 id="_init在_enter_tree或_ready之前触发但在脚本script创建并初始化其属性之后">_init() 在 _enter_tree() 或 _ready() 之前触发，但在脚本Script创建并初始化其属性之后。</h1> <p>@export var test: String = “one”: set(value): test = value + “!”</p> </li> </ul> <p>func _init(): # 在初始化属性之后，可以改变test的值，值将会变为‘two！’ . # 前面的Setter 函数在初始化后使用。 test = “two”</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+##### ​**导出变量初始化顺序**
+1. 默认值赋值 → 2. `_init()` → 3. 导出值赋值（编辑器覆盖）。
+- ​**代码示例**：
+    ```gdscript
+    @export var speed: int = 50  # 默认值
+    
+    func _init():
+        speed = 100  # 被 _init() 覆盖
+    
+    # 若在检查器Interceptor中设置 speed=200，最终值为 200
+    ```
+    
+
+---
+
+#### ​**3. 场景树生命周期**
+
+|​**回调/通知**|​**用途**|​**代码示例**|
+|---|---|---|
+|`_enter_tree()`|节点加入场景树时触发（适合初始化依赖场景树的逻辑）|`gdscript func _enter_tree(): print("加入场景树")`|
+|`_exit_tree()`|节点从场景树移除时触发（适合清理资源）|`gdscript func _exit_tree(): print("移除场景树")`|
+|`NOTIFICATION_PARENTED`|节点被添加为子节点时触发（适合动态绑定父节点逻辑）|`gdscript func _notification(what): if what == NOTIFICATION_PARENTED: connect_to_parent()`|
+|`NOTIFICATION_UNPARENTED`|节点被移除为子节点时触发（适合断开父节点连接）|`gdscript func _notification(what): if what == NOTIFICATION_UNPARENTED: disconnect_from_parent()`|
+
+---
+
+#### ​**4. 输入处理最佳实践**
+
+- ​**避免在 `_process` 中检查输入**：每帧检查浪费性能。
+- ​**使用 `_unhandled_input`**：仅在事件未被消费时触发。
+- ​**代码示例**：
+</code></pre></div></div> <h1 id="每一帧都会执行停止按键也会检查所以有性能浪费">每一帧都会执行，停止按键也会检查，所以有性能浪费</h1> <p>func _process(delta): if Input.is_action_just_pressed(“ui_select”): print(delta)</p> <h1 id="只有在按键按下后才使用性能很好">只有在按键按下后才使用，性能很好</h1> <p>func _unhandled_input(event): match event.get_class(): “InputEventKey”: if Input.is_action_just_pressed(“ui_accept”): print(get_process_delta_time())</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+
+#### ​**5. 定时器替代高频 `_process`**
+
+“依赖于帧速率的 delta 时间增量”时，请使用 `_process`。但是，如果不需要每帧都执行，则可以选择用定时器循环来替代。
+
+- ​**用途**：减少每帧执行次数，优化性能。
+- ​**代码示例**：
+    ```gdscript
+    @onready var timer = $Timer
+    func _ready():
+        timer.wait_time = 0.5  # 每 0.5 秒触发
+        timer.timeout.connect(_on_timer_timeout)
+        timer.start()
+    
+    func _on_timer_timeout():
+        print("定时任务执行")
+
+	# 或者使用如下的方式
+	func _ready():
+		var timer = Timer.new()
+		timer.autostart = true
+		timer.wait_time = 0.5
+		add_child(timer)
+		tiemr.timeout.connect(func():
+			print("This block runs every 0.5 seconds")
+		)
+    
+
+    ```
+    
+
+---
+
+#### ​**6. 父节点信号动态绑定**
+
+	当实例化脚本或独立的场景时，节点不会在创建时被添加到 SceneTree 中，所以未触发 `_enter_tree` 回调。而只有 `_init` 调用发生。当场景被添加到 SceneTree 时，才会调用 `_enter_tree` 和 `_ready`。
+
+- ​**场景**：节点被添加到父节点时自动连接信号。可以使用 [PARENTED](https://docs.godotengine.org/zh-cn/4.x/classes/class_node.html#class-node-constant-notification-parented) 通知
+- ​**代码示例**：
+``` gdscript
+# 下面代码是将节点方法连接到其父节点上自定义信号, 并且不会失败的代码段。对可能在运行时创建并以数据为中心的节点很有用。
+extends Node
+
+var parent_cache
+
+func connection_check():
+	return parent_cache.has_user_signal("interacted_with")
+
+func _notification(what):
+	match what:
+		NOTIFICATION_PARENTED:
+			parent_cache = get_parent()
+			if connection_check():
+				parent_cache.interacted_with.connect(_on_parent_interacted_with)
+		NOTIFICATION_UNPARENTED:
+			if connection_check():
+				parent_cache.interacted_with.disconnect(_on_parent_interacted_with)
+
+func _on_parent_interacted_with():
+	print("I'm reacting to my parent's interaction!")
+</code></pre></div></div> <h3 id="10数据偏好">10.数据偏好</h3> <h3 id="11逻辑偏好">11.逻辑偏好</h3> <h3 id="12-项目组织">12. 项目组织</h3> <h3 id="13版本控制系统">13.版本控制系统</h3>]]></content><author><name></name></author><category term="sample-posts"/><category term="Godot"/><category term="GDScript"/><category term="note"/><summary type="html"><![CDATA[this is what included plotly.js code could look like]]></summary></entry><entry><title type="html">帆鸣_uifj_愚人节快乐！</title><link href="https://uifj.github.io/blog/2025/%E5%B8%86%E9%B8%A3_uifj/" rel="alternate" type="text/html" title="帆鸣_uifj_愚人节快乐！"/><published>2025-04-01T20:00:00+00:00</published><updated>2025-04-01T20:00:00+00:00</updated><id>https://uifj.github.io/blog/2025/%E5%B8%86%E9%B8%A3_uifj</id><content type="html" xml:base="https://uifj.github.io/blog/2025/%E5%B8%86%E9%B8%A3_uifj/"><![CDATA[<h1 id="呼唤">呼唤</h1> <p>愚人节快乐！！</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[迁移个人website]]></summary></entry><entry><title type="html">a post with plotly.js</title><link href="https://uifj.github.io/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://uifj.github.io/blog/2025/plotly</id><content type="html" xml:base="https://uifj.github.io/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
 </span><span class="sb">{
   "data": [
     {
@@ -184,563 +763,13 @@ Content 2
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
 
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="657364be-eb7e-4b68-9595-8f88eaa57f6a" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="657364be-eb7e-4b68-9595-8f88eaa57f6a" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
+</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="2f964b11-cdd0-4580-8da9-c8907b61ca54" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="2f964b11-cdd0-4580-8da9-c8907b61ca54" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="fa6e509e-82b6-4c7b-9551-d3d22666904e" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="fa6e509e-82b6-4c7b-9551-d3d22666904e" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
+</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="e0dd1e72-3805-4550-a5b8-fb556626b87e" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="e0dd1e72-3805-4550-a5b8-fb556626b87e" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
 </code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="0a96be8d-f5a6-44e6-a1b6-37938c2ff1e1" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="0a96be8d-f5a6-44e6-a1b6-37938c2ff1e1" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://uifj.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://uifj.github.io/blog/2024/typograms</id><content type="html" xml:base="https://uifj.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">+----+
-|    |---&gt; My first diagram!
-+----+</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
-|    |---&gt; My first diagram!
-+----+
-</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://uifj.github.io/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://uifj.github.io/blog/2024/post-citation</id><content type="html" xml:base="https://uifj.github.io/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://uifj.github.io/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://uifj.github.io/blog/2024/pseudocode</id><content type="html" xml:base="https://uifj.github.io/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://uifj.github.io/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://uifj.github.io/blog/2024/code-diff</id><content type="html" xml:base="https://uifj.github.io/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
-
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
-
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
-
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
-
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
-
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
-
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
-
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
-
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
-
-   var hoganTemplates = require('./templates/diff2html-templates.js');
-
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
-
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
-
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
-
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
-
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
-
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
-
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
-
-@@ -53,6 +53,7 @@
-
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
-
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
-
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
-
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
-
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry></feed>
+</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="98bafbde-4d74-4c11-8999-0b2f30327535" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="98bafbde-4d74-4c11-8999-0b2f30327535" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry></feed>

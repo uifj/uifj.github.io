@@ -72,7 +72,62 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/stories/";
               },
-            },{id: "post-帆鸣-uifj-愚人节快乐",
+            },{id: "post-又开始幻想了-恼",
+        
+          title: "又开始幻想了“恼”！",
+        
+        description: "幻想之作",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/%E5%8F%88%E5%BC%80%E5%A7%8B%E5%B9%BB%E6%83%B3%E4%BA%86-%E6%81%BC/";
+          
+        },
+      },{id: "post-手册学习之最佳实践",
+        
+          title: "手册学习之最佳实践",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/";
+          
+        },
+      },{id: "post-gdscript依赖注入实践",
+        
+          title: "GDScript依赖注入实践",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/GDScript%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/";
+          
+        },
+      },{id: "post-gdscript使用小技巧",
+        
+          title: "GDScript使用小技巧",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/GDScript%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/";
+          
+        },
+      },{id: "post-手册学习之常用节点",
+        
+          title: "手册学习之常用节点",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E7%94%A8%E8%8A%82%E7%82%B9/";
+          
+        },
+      },{id: "post-帆鸣-uifj-愚人节快乐",
         
           title: "帆鸣_uifj_愚人节快乐！",
         
@@ -81,17 +136,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/%E5%B8%86%E9%B8%A3_uifj/";
-          
-        },
-      },{id: "post-a-post-with-new-js",
-        
-          title: "a post with new.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/newpage/";
           
         },
       },{id: "post-a-post-with-plotly-js",

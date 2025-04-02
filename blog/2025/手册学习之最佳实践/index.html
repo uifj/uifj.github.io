@@ -1,0 +1,466 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> 手册学习之最佳实践 | 帆鸣_uifj </title> <meta name="author" content="The uifj"> <meta name="description" content="this is what included plotly.js code could look like"> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://uifj.github.io/blog/2025/%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/"> <script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav sticky-bottom-footer"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> 帆鸣_uifj </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">关于我 </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">博客 </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">作品项目 </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">代码仓库 </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">简历 </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">UP主 </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">更多内容 </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/books/">读书笔记</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/reports/">每月总结</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/tools/">高效工具</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/stories/">个人故事</a> </div> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">手册学习之最佳实践</h1> <p class="post-meta"> Created on April 02, 2025 </p> <p class="post-tags"> <a href="/blog/2025"> <i class="fa-solid fa-calendar fa-sm"></i> 2025 </a>   ·   <a href="/blog/tag/godot"> <i class="fa-solid fa-hashtag fa-sm"></i> Godot</a>   <a href="/blog/tag/gdscript"> <i class="fa-solid fa-hashtag fa-sm"></i> GDScript</a>   <a href="/blog/tag/note"> <i class="fa-solid fa-hashtag fa-sm"></i> note</a>   ·   <a href="/blog/category/sample-posts"> <i class="fa-solid fa-tag fa-sm"></i> sample-posts</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://docs.godotengine.org/  基于官方文档4.4
+</code></pre></div></div> <h2 id="一最佳实践">一、最佳实践</h2> <p>==前言：依赖于<strong>面向对象</strong>设计原则，使用<strong>单一职责</strong>和<strong>封装方法</strong>==</p> <h3 id="1面向对象设计原则">1.面向对象设计原则</h3> <p>简单来说，就是将客观世界存在或不存在的概念通过抽象成一个个的个体，通过使用编程操作这些对象。</p> <p>关键概念：<strong>对象是类的实例。</strong> 三大特征：<strong>封装、继承、多态</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>封装就是将类中的需求拆分成其他类，继承就是继承父类拥有的内容，多态就是重写父类的内容。
+</code></pre></div></div> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>面向对象程序设计（英语：Object-oriented programming，缩写：OOP）是种具有对象概念的编程典范，同时也是一种程序开发的抽象方针。它可能包含数据、特性、代码与方法。对象则指的是类（class）的实例。它将对象作为程序的基本单元，将程序和数据封装其中，以提高软件的重用性、灵活性和扩展性，对象里的程序可以访问及经常修改对象相关连的数据。在面向对象程序编程里，计算机程序会被设计成彼此相关的对象。
+</code></pre></div></div> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://blog.csdn.net/qq_16856917/article/details/90384526 通过游戏设计的方式学习知识
+</code></pre></div></div> <h3 id="2单一职责原则">2.单一职责原则</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(Single Responsibility Principle, SRP) 单一职责要求：**一个类或模块应该有且只有一个引起它变化的原因**。
+</code></pre></div></div> <p><strong>下面的代码的问题：​</strong></p> <ul> <li> <code class="language-plaintext highlighter-rouge">Player</code> 类同时负责管理玩家的健康值和绘制血条的界面逻辑。</li> <li>如果未来需要修改血条样式或健康值的计算方式，都需要修改同一个类，增加了耦合性。 <div class="language-gdscript highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="c1"># 玩家类，同时管理数据和界面逻辑</span>
+<span class="k">class</span> <span class="nc">Player</span><span class="p">:</span>
+  <span class="k">var</span> <span class="n">health</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">100</span>
+
+  <span class="c1"># 处理伤害</span>
+  <span class="k">func</span> <span class="nf">take_damage</span><span class="p">(</span><span class="n">amount</span><span class="p">:</span> <span class="kt">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+      <span class="n">health</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">health</span> <span class="o">-</span> <span class="n">amount</span><span class="p">)</span>
+
+  <span class="c1"># 绘制血条到屏幕（界面逻辑）</span>
+  <span class="k">func</span> <span class="nf">draw_health_bar</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">"绘制血条："</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">health</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"/100"</span><span class="p">)</span>
+</code></pre></div> </div> </li> </ul> <p><strong>遵循 SRP 的改进：​</strong></p> <ul> <li> <code class="language-plaintext highlighter-rouge">Player</code> 类只管理数据，<code class="language-plaintext highlighter-rouge">HealthUI</code> 类只处理显示逻辑。</li> <li>修改血条样式不会影响玩家数据逻辑，反之亦然。 ```gdscript <h1 id="玩家类只负责健康值管理">玩家类：只负责健康值管理</h1> <p>class Player: var health: int = 100</p> <p>func take_damage(amount: int) -&gt; void: health = max(0, health - amount)</p> </li> </ul> <h1 id="界面类只负责健康值的显示">界面类：只负责健康值的显示</h1> <p>class HealthUI: static func draw_health_bar(player: Player) -&gt; void: print(“绘制血条：”, str(player.health) + “/100”)</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+==单一职责，推荐通过组合的方式，将不同的类结合起来，避免过高的耦合。==
+
+
+### 2.封装
+	是面向对象编程的核心概念之一，重点在于：
+1. 将数据与操作数据的方法绑定。
+2. 限制从外部直接访问操作对象内部的数据。
+
+**未封装的代码问题：​**
+- `health` 直接暴露，外部可能赋予非法值（如负数）。
+``` gdscript
+class Player:
+    var health: int = 100
+
+# 外部可以直接修改 health，可能导致非法值
+var player = Player.new()
+player.health = -50  # 非法值，但无约束
+</code></pre></div></div> <p><strong>通过封装改进的代码：​</strong></p> <ul> <li> <code class="language-plaintext highlighter-rouge">_health</code> 被设为“私有”（GDScript 中通过 <code class="language-plaintext highlighter-rouge">_</code> 前缀约定），外部无法直接修改。</li> <li>必须通过 <code class="language-plaintext highlighter-rouge">take_damage</code> 方法修改值，确保数值合法性（如伤害值必须为正数）。</li> <li>通过 <code class="language-plaintext highlighter-rouge">get_health</code> 方法提供只读访问。</li> </ul> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Player</span><span class="p">:</span>
+    <span class="k">var</span> <span class="n">_health</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">100</span>  <span class="c1"># 私有变量（约定以 _ 开头）</span>
+
+    <span class="c1"># 通过方法控制伤害逻辑</span>
+    <span class="k">func</span> <span class="nf">take_damage</span><span class="p">(</span><span class="n">amount</span><span class="p">:</span> <span class="kt">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">amount</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">_health</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">_health</span> <span class="o">-</span> <span class="n">amount</span><span class="p">)</span>
+
+    <span class="c1"># 提供只读访问</span>
+    <span class="k">func</span> <span class="nf">get_health</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">int</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_health</span>
+
+<span class="c1"># 使用封装的 Player 类</span>
+<span class="k">var</span> <span class="n">player</span> <span class="o">=</span> <span class="n">Player</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="n">player</span><span class="o">.</span><span class="n">take_damage</span><span class="p">(</span><span class="mi">30</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">player</span><span class="o">.</span><span class="n">get_health</span><span class="p">())</span>  <span class="c1"># 输出 70</span>
+<span class="c1"># player._health = -10  # 无法直接访问（约定私有）</span>
+</code></pre></div></div> <h3 id="3单一职责与封装的结合">3.单一职责与封装的结合</h3> <p><strong>结合 SRP 和封装：</strong></p> <ul> <li> <code class="language-plaintext highlighter-rouge">PlayerData</code> 类只负责管理数据，并通过封装保护 <code class="language-plaintext highlighter-rouge">_health</code>。</li> <li> <code class="language-plaintext highlighter-rouge">PlayerUI</code> 类只负责显示逻辑。</li> <li>两者职责明确，且数据访问受控 ```gdscript <h1 id="玩家数据类srp--封装">玩家数据类（SRP + 封装）</h1> <p>class PlayerData: var _health: int = 100</p> <p>func take_damage(amount: int) -&gt; void: if amount &gt; 0: _health = max(0, _health - amount)</p> <p>func get_health() -&gt; int: return _health</p> </li> </ul> <h1 id="玩家界面类srp">玩家界面类（SRP）</h1> <p>class PlayerUI: static func update_health_display(player_data: PlayerData) -&gt; void: print(“当前生命值：”, player_data.get_health())</p> <h1 id="使用示例">使用示例</h1> <p>var player_data = PlayerData.new() var player_ui = PlayerUI</p> <p>player_data.take_damage(20) player_ui.update_health_display(player_data) # 输出 “当前生命值：80”</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+### 4. godot中面向对象的使用
+	Godot 引擎主要提供了两种创建可复用对象的方式：脚本和场景。
+
+#### 脚本Script
+引擎提供了内置的类，如 [Node](https://docs.godotengine.org/zh-cn/4.x/classes/class_node.html#class-node) 。你可以使用脚本**script**扩展这些类来创建派生类型，而**脚本script**是一种资源文件，用来告知引擎在某一内置类的基础上执行一系列初始化。
+
+Godot 的内部类可以将一个类的数据注册进一个名为 [ClassDB](https://docs.godotengine.org/zh-cn/4.x/classes/class_classdb.html#class-classdb) 的数据库，该数据库让我们可以在运行时访问类的信息。`ClassDB` 包含有关类的信息，例如：
+- 属性。
+- 方法。
+- 常量。
+- 信号。
+
+#### 场景Scence：
+场景的行为与类有很多相似之处，所以把场景看成一个类也是合理的。
+**场景是可复用、可实例化、可继承的节点组。add_child( )方法可添加子节点。** 场景Scence 用于组织节点，而节点又是对象，所以**场景的实例都是对象。**
+
+==场景就是对附着在根节点上的**脚本的扩展**，所以你可以将其解释为类的一部分。==
+
+
+### 5.场景组织Scence
+#### 核心设计原则
+1. ​**松耦合（Loose Coupling）​**
+    - 子节点不直接暴露访问点，由父节点中介管理引用。
+    - 节点应尽可能独立，减少对环境的依赖，便于重用。
+2. ​**数据内部化（Data Encapsulation）​**
+    - 关键数据应封装在场景内部，避免依赖外部上下文。
+    - 通过工具脚本自动生成配置警告，减少文档维护。
+3. ​**明确的入口点（Main 节点）​**
+    - 使用 `Main` 节点作为全局控制器，管理场景切换和核心逻辑。
+4. ​**单例与自动加载（Singleton &amp; Autoload）​**
+    - 全局系统（如游戏管理器）应定义为自动加载的单例。
+5. ​**节点树逻辑优先**
+    - 根据逻辑关系（而非空间位置）组织节点，避免不必要的父子依赖。
+
+#### 建立有效的关系
+	由于场景通常容易充满各种节点内容，所以如何建立组织关系很重要。
+
+**OOP编程中，需要保持松散的耦合，提高重用性。** 如果可以，尽量设计没有依赖关系的场景。
+
+如果场景必须与外部环境交互，那么有下面5种方式进行操作：
+1. **连接信号。** 缺点在于只能“响应”内容。信号名称通常是过去式动词，如“entered”“skill_activated”“item_collected”（已进入、已激活技能、已收集道具）。
+2. **调用方法。** 
+3. **初始化Callable属性。** Callable代表一个方法或一个独立函数的内置类型。
+4. **初始化Node或其他Object的引用。**
+5. **初始化NodePath。**
+
+此外，有经验后，更推荐使用**依赖注入**的方式去使用。
+
+
+#### 选择节点树结构
+
+	使用一个 Main节点作为入口节点。
+
+
+#### 代码示例：
+
+##### 5.1. 松耦合：父节点中介通信
+```gdscript
+# Parent 节点（parent.gd）
+extends Node
+
+@onready var left = $Left
+@onready var right = $Right/Receiver
+
+func _ready():
+    left.target = right  # 父节点传递引用
+
+
+# Left 节点（left.gd）
+extends Node
+var target: Node
+
+func execute():
+    if target:
+        target.do_something()  # 通过父节点中介调用
+
+
+# Right/Receiver 节点（receiver.gd）
+extends Node
+func do_something():
+    print("Right 节点被调用")
+</code></pre></div></div> <h5 id="52-工具脚本自动生成配置警告">5.2. 工具脚本：自动生成配置警告</h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 子节点（需依赖父节点的组件）</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="k">func</span> <span class="nf">_get_configuration_warnings</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">PackedStringArray</span><span class="p">:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">get_parent</span><span class="p">()</span><span class="o">.</span><span class="n">has_node</span><span class="p">(</span><span class="s2">"RequiredComponent"</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[</span><span class="s2">"需要父节点包含 RequiredComponent"</span><span class="p">]</span>
+    <span class="k">return</span> <span class="p">[]</span>
+</code></pre></div></div> <ul> <li>若父节点缺少 <code class="language-plaintext highlighter-rouge">RequiredComponent</code>，场景编辑器会显示警告图标。</li> </ul> <h5 id="53-main-节点与场景切换">5.3. Main 节点与场景切换</h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Main 节点（main.gd）</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="k">var</span> <span class="n">current_world</span><span class="p">:</span> <span class="n">Node</span>
+
+<span class="k">func</span> <span class="nf">_ready</span><span class="p">():</span>
+    <span class="n">load_world</span><span class="p">(</span><span class="s2">"res://world_1.tscn"</span><span class="p">)</span>
+
+<span class="k">func</span> <span class="nf">load_world</span><span class="p">(</span><span class="n">scene_path</span><span class="p">:</span> <span class="kt">String</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">current_world</span><span class="p">:</span>
+        <span class="n">current_world</span><span class="o">.</span><span class="n">queue_free</span><span class="p">()</span>  <span class="c1"># 卸载旧场景</span>
+    <span class="k">var</span> <span class="n">new_world</span> <span class="o">=</span> <span class="nb">load</span><span class="p">(</span><span class="n">scene_path</span><span class="p">)</span><span class="o">.</span><span class="n">instantiate</span><span class="p">()</span>
+    <span class="n">add_child</span><span class="p">(</span><span class="n">new_world</span><span class="p">)</span>
+    <span class="n">current_world</span> <span class="o">=</span> <span class="n">new_world</span>
+</code></pre></div></div> <h5 id="54-单例自动加载global-系统">5.4. 单例自动加载（Global 系统）</h5> <ol> <li>创建 <code class="language-plaintext highlighter-rouge">global.gd</code>，在 ​<strong>Project Settings &gt; Autoload</strong> 添加为单例。</li> </ol> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># global.gd</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="k">var</span> <span class="n">score</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">func</span> <span class="nf">add_score</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="kt">int</span><span class="p">):</span>
+    <span class="n">score</span> <span class="o">+=</span> <span class="n">value</span>
+</code></pre></div></div> <h5 id="55-避免父子依赖使用top_level">5.5. 避免父子依赖：使用 <code class="language-plaintext highlighter-rouge">top_level</code> </h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 子节点忽略父节点变换</span>
+<span class="k">extends</span> <span class="n">Sprite2D</span>
+
+<span class="k">func</span> <span class="nf">_ready</span><span class="p">():</span>
+    <span class="n">top_level</span> <span class="o">=</span> <span class="bp">true</span>  <span class="c1"># 独立于父节点的位置</span>
+</code></pre></div></div> <h5 id="56-依赖注入的方式">5.6. 依赖注入的方式</h5> <hr> <h4 id="关键实践">关键实践</h4> <ol> <li>​<strong>场景独立工作能力</strong> <ul> <li>每个场景应能独立运行（通过工具脚本检查依赖）。</li> </ul> </li> <li>​<strong>节点移动策略</strong> <ul> <li>切换场景时，关键节点（如玩家）可暂时移动到 <code class="language-plaintext highlighter-rouge">Main</code> 节点下： <div class="language-gdscript highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="c1"># 切换房间前保留玩家</span>
+<span class="k">var</span> <span class="n">player</span> <span class="o">=</span> <span class="n">current_room</span><span class="o">.</span><span class="n">get_node</span><span class="p">(</span><span class="s2">"Player"</span><span class="p">)</span>
+<span class="n">remove_child</span><span class="p">(</span><span class="n">current_room</span><span class="p">)</span>
+<span class="n">player</span><span class="o">.</span><span class="n">reparent</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>  <span class="c1"># 移动到 Main 节点</span>
+<span class="n">current_room</span><span class="o">.</span><span class="n">queue_free</span><span class="p">()</span>
+</code></pre></div> </div> </li> </ul> </li> <li>​<strong>网络游戏结构</strong> <ul> <li>分离客户端和服务端逻辑节点，避免冗余数据同步。</li> </ul> </li> <li>​<strong>声明式解耦</strong> <ul> <li>使用 <code class="language-plaintext highlighter-rouge">Node</code> 作为中间层，阻断不必要的变换继承。</li> </ul> </li> </ol> <h4 id="设计哲学">设计哲学</h4> <ul> <li>​<strong>SOLID 原则</strong>：尤其是单一职责（<code class="language-plaintext highlighter-rouge">Main</code>、<code class="language-plaintext highlighter-rouge">World</code>、<code class="language-plaintext highlighter-rouge">GUI</code> 分离）。</li> <li>​<strong>DRY</strong>：通过单例和父节点中介复用逻辑。</li> <li>​<strong>KISS/YAGNI</strong>：避免过度设计，按需实现功能。</li> </ul> <h3 id="6怎么选择场景与脚本">6.怎么选择场景与脚本</h3> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">const</span> <span class="n">MyNode</span> <span class="o">=</span> <span class="nb">preload</span><span class="p">(</span><span class="s2">"my_node.gd"</span><span class="p">)</span>
+<span class="k">const</span> <span class="n">MyScene</span> <span class="o">=</span> <span class="nb">preload</span><span class="p">(</span><span class="s2">"my_scene.tscn"</span><span class="p">)</span>
+<span class="k">var</span> <span class="n">node</span> <span class="o">=</span> <span class="n">Node</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="k">var</span> <span class="n">my_node</span> <span class="o">=</span> <span class="n">MyNode</span><span class="o">.</span><span class="n">new</span><span class="p">()</span> <span class="c1"># Same method call.</span>
+<span class="k">var</span> <span class="n">my_scene</span> <span class="o">=</span> <span class="n">MyScene</span><span class="o">.</span><span class="n">instantiate</span><span class="p">()</span> <span class="c1"># Different method call.</span>
+<span class="k">var</span> <span class="n">my_inherited_scene</span> <span class="o">=</span> <span class="n">MyScene</span><span class="o">.</span><span class="n">instantiate</span><span class="p">(</span><span class="n">PackedScene</span><span class="o">.</span><span class="n">GEN_EDIT_STATE_MAIN</span><span class="p">)</span> <span class="c1"># Create scene inheriting from MyScene.</span>
+</code></pre></div></div> <p>由于引擎和脚本Script代码之间的速度差异, 脚本的运行速度将比场景慢一些. 节点越大和越复杂, 将它构建为场景。</p> <p>脚本和场景之间，更推荐创建<strong>场景</strong>。</p> <p>==相比于直接在Script中创建节点Node，使用场景的<strong>PackedScene</strong>有助于避免这个性能问题。PackedScene（场景包）是场景继承的基础类型，定义了使用序列化数据创建对象的资源。==</p> <h4 id="脚本script与场景scence的适用场景">脚本Script与场景Scence的适用场景</h4> <ol> <li>​<strong>可重用工具</strong> - 应使用<strong>脚本</strong>，并添加 <code class="language-plaintext highlighter-rouge">class_name</code> 自定义类名和图标，全局可见，便于跨项目复用。 <ul> <li>轻量级，适合提供通用功能（如工具类、算法库）。</li> </ul> </li> <li>​<strong>特定游戏概念</strong> - 应使用<strong>场景</strong>，便于可视化编辑，数据更安全（节点属性可配置）。 <ul> <li>适合游戏实体（如角色、UI界面）、关卡设计、节点树结构清晰。</li> </ul> </li> <li>​<strong>通过脚本类命名场景</strong> - 在脚本中预加载场景并定义为常量，使其像类一样被引用。 <ul> <li>提高代码可读性，避免硬编码路径（推荐类名，避免路径字符串）。</li> </ul> </li> </ol> <h4 id="代码示例">代码示例</h4> <h5 id="61-可重用工具脚本">6.1. ​<strong>可重用工具脚本</strong> </h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># math_utils.gd（工具脚本）</span>
+<span class="err">@</span><span class="k">tool</span> <span class="c1"># 允许在编辑器中运行</span>
+<span class="k">class_name</span> <span class="n">MathUtils</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="c1"># 自定义图标（在脚本属性中设置）</span>
+<span class="k">static</span> <span class="k">func</span> <span class="nf">clamp_value</span><span class="p">(</span><span class="n">value</span><span class="p">:</span> <span class="kt">float</span><span class="p">,</span> <span class="n">min_val</span><span class="p">:</span> <span class="kt">float</span><span class="p">,</span> <span class="n">max_val</span><span class="p">:</span> <span class="kt">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">float</span><span class="p">:</span>
+    <span class="k">return</span> <span class="nb">clamp</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="n">min_val</span><span class="p">,</span> <span class="n">max_val</span><span class="p">)</span>
+</code></pre></div></div> <h5 id="62-游戏专属场景">6.2. ​<strong>游戏专属场景</strong> </h5> <p>创建 <code class="language-plaintext highlighter-rouge">player.tscn</code> 场景：</p> <ul> <li>包含 <code class="language-plaintext highlighter-rouge">CharacterBody2D</code> 节点、碰撞体、精灵等。</li> <li>导出属性（如移动速度）供非程序员在编辑器调整。</li> </ul> <h5 id="63-通过脚本类引用场景">6.3. ​<strong>通过脚本类引用场景</strong> </h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># game_concepts.gd（定义场景常量）</span>
+<span class="k">class_name</span> <span class="n">GameConcepts</span>
+<span class="k">extends</span> <span class="n">RefCounted</span>
+
+<span class="k">const</span> <span class="n">PlayerScene</span> <span class="o">=</span> <span class="nb">preload</span><span class="p">(</span><span class="s2">"res://player.tscn"</span><span class="p">)</span>
+<span class="k">const</span> <span class="n">EnemyScene</span> <span class="o">=</span> <span class="nb">preload</span><span class="p">(</span><span class="s2">"res://enemy.tscn"</span><span class="p">)</span>
+
+<span class="c1"># main.gd（主脚本）</span>
+<span class="k">extends</span> <span class="n">Node</span>
+<span class="k">func</span> <span class="nf">_ready</span><span class="p">():</span>
+    <span class="k">var</span> <span class="n">player</span> <span class="o">=</span> <span class="n">GameConcepts</span><span class="o">.</span><span class="n">PlayerScene</span><span class="o">.</span><span class="n">instantiate</span><span class="p">()</span>
+    <span class="n">add_child</span><span class="p">(</span><span class="n">player</span><span class="p">)</span>
+</code></pre></div></div> <h3 id="7自动加载autodload与常规节点">7.自动加载（Autodload）与常规节点</h3> <h4 id="自动加载">自动加载</h4> <ol> <li>​<strong>优点</strong> <ul> <li>​<strong>全局访问</strong>：适用于需要在多个场景间共享的系统（如任务、对话系统）。</li> <li>​<strong>简化代码</strong>：避免重复初始化通用功能（如存档管理、全局配置）。</li> </ul> </li> <li>​<strong>缺点</strong> <ul> <li>​<strong>全局状态</strong>：可能导致耦合性高，难以追踪错误。</li> <li>​<strong>资源浪费</strong>：预分配资源可能占用内存（如音频节点池）。</li> <li>​<strong>违反封装</strong>：其他场景可能直接修改全局数据，破坏安全性。</li> </ul> </li> </ol> <p>==<strong>解决方案</strong>（避免滥用自动加载）==</p> <ol> <li>​<strong>场景内部管理</strong>：每个场景自行管理资源（如音效播放器）。</li> <li>​<strong>静态工具类</strong>：通过 <code class="language-plaintext highlighter-rouge">class_name</code> + <code class="language-plaintext highlighter-rouge">static</code> 方法共享功能，无需实例化。</li> <li>​<strong>资源文件</strong>：用 <code class="language-plaintext highlighter-rouge">Resource</code> 类型共享数据（如游戏配置）。</li> </ol> <h4 id="代码示例-1">代码示例</h4> <h5 id="71-自动加载的正确使用全局任务系统">7.1. ​<strong>自动加载的正确使用：全局任务系统</strong> </h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># autoloads/task_manager.gd</span>
+<span class="k">class_name</span> <span class="n">TaskManager</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="k">var</span> <span class="n">active_tasks</span><span class="p">:</span> <span class="kt">Array</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">func</span> <span class="nf">add_task</span><span class="p">(</span><span class="n">task_name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+    <span class="n">active_tasks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">task_name</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"任务添加:"</span><span class="p">,</span> <span class="n">task_name</span><span class="p">)</span>
+
+<span class="c1"># 在其他场景中调用</span>
+<span class="n">TaskManager</span><span class="o">.</span><span class="n">add_task</span><span class="p">(</span><span class="s2">"击败BOSS"</span><span class="p">)</span>
+</code></pre></div></div> <h5 id="72-场景内部管理音效避免全局状态">7.2. ​<strong>场景内部管理音效（避免全局状态）​</strong> </h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># scene_with_sound.tscn 的脚本</span>
+<span class="k">extends</span> <span class="n">Node2D</span>
+
+<span class="err">@</span><span class="k">onready</span> <span class="k">var</span> <span class="n">audio_players</span><span class="p">:</span> <span class="kt">Array</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="o">$</span><span class="n">AudioStreamPlayer1</span><span class="p">,</span>
+    <span class="o">$</span><span class="n">AudioStreamPlayer2</span>
+<span class="p">]</span>
+
+<span class="k">func</span> <span class="nf">play_sound</span><span class="p">(</span><span class="n">sound_path</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">void</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">player</span> <span class="ow">in</span> <span class="n">audio_players</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">player</span><span class="o">.</span><span class="n">playing</span><span class="p">:</span>
+            <span class="n">player</span><span class="o">.</span><span class="n">stream</span> <span class="o">=</span> <span class="nb">load</span><span class="p">(</span><span class="n">sound_path</span><span class="p">)</span>
+            <span class="n">player</span><span class="o">.</span><span class="n">play</span><span class="p">()</span>
+            <span class="k">break</span>
+
+<span class="c1"># 调用示例（仅在当前场景内）</span>
+<span class="n">play_sound</span><span class="p">(</span><span class="s2">"res://coin_pickup.ogg"</span><span class="p">)</span>
+</code></pre></div></div> <h5 id="73-静态工具类替代自动加载">7.3. ​<strong>静态工具类替代自动加载</strong> </h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># math_utils.gd（工具类，无需自动加载）</span>
+<span class="k">class_name</span> <span class="n">MathUtils</span>
+<span class="k">extends</span> <span class="kt">Object</span>  <span class="c1"># 无需继承Node，直接作为静态工具类</span>
+
+<span class="k">static</span> <span class="k">func</span> <span class="nf">lerp</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="kt">float</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="kt">float</span><span class="p">,</span> <span class="n">t</span><span class="p">:</span> <span class="kt">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">float</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span> <span class="o">*</span> <span class="nb">clamp</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">)</span>
+
+<span class="c1"># 调用示例</span>
+<span class="k">var</span> <span class="n">value</span> <span class="o">=</span> <span class="n">MathUtils</span><span class="o">.</span><span class="nb">lerp</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>  <span class="c1"># 输出50</span>
+</code></pre></div></div> <h5 id="74-资源文件共享数据">7.4. ​<strong>资源文件共享数据</strong> </h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># game_config.gd（Resource类型）</span>
+<span class="k">class_name</span> <span class="n">GameConfig</span>
+<span class="k">extends</span> <span class="n">Resource</span>
+
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">player_speed</span><span class="p">:</span> <span class="kt">float</span> <span class="o">=</span> <span class="mf">300.0</span>
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">volume</span><span class="p">:</span> <span class="kt">float</span> <span class="o">=</span> <span class="mf">0.8</span>
+
+<span class="c1"># 保存/加载配置</span>
+<span class="k">var</span> <span class="n">config</span> <span class="o">=</span> <span class="n">GameConfig</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="n">ResourceSaver</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="s2">"res://game_config.tres"</span><span class="p">)</span>
+<span class="k">var</span> <span class="n">loaded_config</span> <span class="o">=</span> <span class="nb">load</span><span class="p">(</span><span class="s2">"res://game_config.tres"</span><span class="p">)</span>
+</code></pre></div></div> <h4 id="何时使用自动加载">何时使用自动加载？</h4> <table> <thead> <tr> <th>​<strong>场景</strong> </th> <th>​<strong>推荐方案</strong> </th> <th>​<strong>示例</strong> </th> </tr> </thead> <tbody> <tr> <td>全局任务/对话系统</td> <td>自动加载</td> <td><code class="language-plaintext highlighter-rouge">TaskManager</code></td> </tr> <tr> <td>场景独立音效管理</td> <td>场景内部管理</td> <td>每个场景的 <code class="language-plaintext highlighter-rouge">audio_players</code> </td> </tr> <tr> <td>数学工具类</td> <td>静态工具类（<code class="language-plaintext highlighter-rouge">static</code>）</td> <td><code class="language-plaintext highlighter-rouge">MathUtils</code></td> </tr> <tr> <td>共享配置数据</td> <td>资源文件（<code class="language-plaintext highlighter-rouge">Resource</code>）</td> <td><code class="language-plaintext highlighter-rouge">GameConfig</code></td> </tr> </tbody> </table> <h3 id="8避免任何时候使用节点node性能优化">8.避免任何时候使用节点Node（性能优化）</h3> <p>Godot 提供了三种更加轻量化的对象：</p> <ol> <li> <a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_object.html#class-object" rel="external nofollow noopener" target="_blank">Object</a>：终极轻量级对象，原始的 Object 必须使用<strong>手动内存管理</strong>。参考<a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_tree.html#class-tree" rel="external nofollow noopener" target="_blank">Tree</a> 节点示例。</li> <li> <a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_refcounted.html#class-refcounted" rel="external nofollow noopener" target="_blank">RefCounted</a>：只比 Object 稍微复杂一点。它们会记录对自己的引用，只有当对自己没有另外的引用存在时，才会删除加载的内存。参考<a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_fileaccess.html#class-fileaccess" rel="external nofollow noopener" target="_blank">FileAccess</a> 对象。</li> <li> <a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_resource.html#class-resource" rel="external nofollow noopener" target="_blank">Resource</a> ：只比 RefCounted 稍微复杂一点。它们天然具有将其对象属性序列化（即保存）到 Godot 资源文件，或从 Godot 资源文件中反序列化（即加载）的能力。 参考<a href="https://docs.godotengine.org/zh-cn/4.x/classes/class_audioeffect.html#class-audioeffect" rel="external nofollow noopener" target="_blank">AudioEffect</a> 类。<strong>相比传统存储数据更好，不仅轻量，而且兼容性还好。</strong> </li> </ol> <p><strong>关键原则：</strong></p> <ol> <li>​<strong>优先轻量级对象</strong>： <ul> <li>如果不需要节点树、信号或物理特性，使用 <code class="language-plaintext highlighter-rouge">Object</code>/<code class="language-plaintext highlighter-rouge">RefCounted</code>/<code class="language-plaintext highlighter-rouge">Resource</code>。</li> </ul> </li> <li>​<strong>减少节点数量</strong>： <ul> <li>避免为纯数据或工具逻辑创建节点。</li> </ul> </li> <li>​<strong>利用 <code class="language-plaintext highlighter-rouge">Resource</code> 的序列化</strong>： <ul> <li>将配置、预制体等数据保存为 <code class="language-plaintext highlighter-rouge">.tres</code> 文件，方便编辑和复用。</li> </ul> </li> </ol> <h4 id="代码示例-2">代码示例</h4> <h5 id="81object最轻量级的基础类"> <strong>8.1.<code class="language-plaintext highlighter-rouge">Object</code>：最轻量级的基础类</strong> </h5> <ul> <li>​<strong>适用场景</strong>：需要自定义数据结构，无需节点功能（如树结构、生命周期方法）。</li> <li>​<strong>特点</strong>： <ul> <li>手动内存管理（需调用 <code class="language-plaintext highlighter-rouge">free()</code>）。</li> <li>适合底层逻辑（如数据模型、工具类）。</li> </ul> </li> </ul> <p><strong>GDScript 示例：​</strong></p> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 自定义数据类（继承 Object）</span>
+<span class="k">class_name</span> <span class="n">DataModel</span>
+<span class="k">extends</span> <span class="kt">Object</span>
+
+<span class="k">var</span> <span class="n">id</span><span class="p">:</span> <span class="kt">int</span>
+<span class="k">var</span> <span class="n">name</span><span class="p">:</span> <span class="kt">String</span>
+
+<span class="k">func</span> <span class="nf">_init</span><span class="p">(</span><span class="n">p_id</span><span class="p">:</span> <span class="kt">int</span><span class="p">,</span> <span class="n">p_name</span><span class="p">:</span> <span class="kt">String</span><span class="p">):</span>
+    <span class="n">id</span> <span class="o">=</span> <span class="n">p_id</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">p_name</span>
+
+<span class="c1"># 使用示例</span>
+<span class="k">var</span> <span class="n">model</span> <span class="o">=</span> <span class="n">DataModel</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">"Player"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>  <span class="c1"># 输出 "Player"</span>
+<span class="n">model</span><span class="o">.</span><span class="n">free</span><span class="p">()</span>       <span class="c1"># 手动释放内存</span>
+</code></pre></div></div> <hr> <h5 id="8-2refcounted自动内存管理的引用计数类"> <strong>8. 2. <code class="language-plaintext highlighter-rouge">RefCounted</code>：自动内存管理的引用计数类</strong> </h5> <ul> <li>​<strong>适用场景</strong>：需要自动内存管理，但无需序列化或编辑器集成。</li> <li>​<strong>特点</strong>： <ul> <li>自动释放内存（引用计数归零时）。</li> <li>适合临时数据容器或工具类。</li> </ul> </li> </ul> <p><strong>GDScript 示例：​</strong></p> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 引用计数类（继承 RefCounted）</span>
+<span class="k">class_name</span> <span class="n">GameTimer</span>
+<span class="k">extends</span> <span class="n">RefCounted</span>
+
+<span class="k">var</span> <span class="n">start_time</span><span class="p">:</span> <span class="kt">int</span>
+
+<span class="k">func</span> <span class="nf">start</span><span class="p">():</span>
+    <span class="n">start_time</span> <span class="o">=</span> <span class="n">Time</span><span class="o">.</span><span class="n">get_ticks_msec</span><span class="p">()</span>
+
+<span class="k">func</span> <span class="nf">get_elapsed_time</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">int</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">Time</span><span class="o">.</span><span class="n">get_ticks_msec</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span>
+
+<span class="c1"># 使用示例</span>
+<span class="k">var</span> <span class="n">timer</span> <span class="o">=</span> <span class="n">GameTimer</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="n">timer</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">timer</span><span class="o">.</span><span class="n">get_elapsed_time</span><span class="p">())</span>  <span class="c1"># 输出经过的毫秒数</span>
+<span class="c1"># 无需手动调用 free()</span>
+</code></pre></div></div> <h5 id="83resource可序列化的数据类"> <strong>8.​3. <code class="language-plaintext highlighter-rouge">Resource</code>：可序列化的数据类</strong> </h5> <ul> <li>​<strong>适用场景</strong>：需要保存/加载数据，或在编辑器暴露属性。</li> <li>​<strong>特点</strong>： <ul> <li>支持序列化（保存为 <code class="language-plaintext highlighter-rouge">.tres</code> 文件）。</li> <li>属性可在检查器中编辑。</li> <li>适合配置、技能数据、预制体等。</li> </ul> </li> </ul> <p><strong>GDScript 示例：​</strong></p> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 游戏配置（继承 Resource）</span>
+<span class="k">class_name</span> <span class="n">GameConfig</span>
+<span class="k">extends</span> <span class="n">Resource</span>
+
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">player_speed</span><span class="p">:</span> <span class="kt">float</span> <span class="o">=</span> <span class="mf">300.0</span>
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">volume</span><span class="p">:</span> <span class="kt">float</span> <span class="o">=</span> <span class="mf">0.8</span>
+
+<span class="c1"># 保存配置</span>
+<span class="k">func</span> <span class="nf">save_config</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="kt">String</span><span class="p">):</span>
+    <span class="n">ResourceSaver</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
+
+<span class="c1"># 使用示例</span>
+<span class="k">var</span> <span class="n">config</span> <span class="o">=</span> <span class="n">GameConfig</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+<span class="n">config</span><span class="o">.</span><span class="n">player_speed</span> <span class="o">=</span> <span class="mf">350.0</span>
+<span class="n">config</span><span class="o">.</span><span class="n">save_config</span><span class="p">(</span><span class="s2">"res://game_config.tres"</span><span class="p">)</span>
+</code></pre></div></div> <hr> <h5 id="何时避免使用节点">​<strong>何时避免使用节点？</strong> </h5> <table> <thead> <tr> <th>​<strong>场景</strong> </th> <th>​<strong>替代方案</strong> </th> <th>​<strong>示例</strong> </th> </tr> </thead> <tbody> <tr> <td>纯数据存储（无可视化）</td> <td><code class="language-plaintext highlighter-rouge">Resource</code></td> <td>游戏配置、技能数据</td> </tr> <tr> <td>临时数据容器（无需树结构）</td> <td><code class="language-plaintext highlighter-rouge">RefCounted</code></td> <td>计时器、网络请求结果</td> </tr> <tr> <td>底层工具类（无需生命周期）</td> <td><code class="language-plaintext highlighter-rouge">Object</code></td> <td>数学工具、自定义数据结构</td> </tr> </tbody> </table> <h5 id="代码对比节点-vs-轻量级对象场景存储玩家数据">​<strong>代码对比：节点 vs 轻量级对象</strong>（场景：存储玩家数据）</h5> <p><strong>使用节点（低效）：​</strong></p> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 节点方式（浪费性能）</span>
+<span class="k">class_name</span> <span class="n">PlayerDataNode</span>
+<span class="k">extends</span> <span class="n">Node</span>
+
+<span class="k">var</span> <span class="n">health</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="k">var</span> <span class="n">level</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">1</span>
+</code></pre></div></div> <p><strong>使用 <code class="language-plaintext highlighter-rouge">Resource</code>（高效且可序列化）：​</strong></p> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Resource 方式</span>
+<span class="k">class_name</span> <span class="n">PlayerData</span>
+<span class="k">extends</span> <span class="n">Resource</span>
+
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">health</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">level</span><span class="p">:</span> <span class="kt">int</span> <span class="o">=</span> <span class="mi">1</span>
+</code></pre></div></div> <h3 id="9godot接口">9.Godot接口</h3> <h4 id="关键原则"><strong>关键原则</strong></h4> <ol> <li>​<strong>引用获取</strong> <ul> <li>优先使用 <code class="language-plaintext highlighter-rouge">@onready</code> 缓存节点，避免动态查找。</li> <li>复杂依赖用 <code class="language-plaintext highlighter-rouge">@export</code> 在编辑器配置，而非硬编码路径。</li> </ul> </li> <li>​<strong>数据访问</strong> <ul> <li>鸭子类型灵活但危险，必要时用 <code class="language-plaintext highlighter-rouge">has_method</code> 或类型断言保护。</li> <li>全局数据用自动加载，场景数据用 <code class="language-plaintext highlighter-rouge">Resource</code>。</li> </ul> </li> <li>​<strong>解耦设计</strong> <ul> <li>使用 Callable 或信号（<code class="language-plaintext highlighter-rouge">Signal</code>）减少直接依赖。</li> <li>通过组（Group）或命名约定实现松散耦合。</li> </ul> </li> </ol> <h4 id="获取对象引用就是操作该对象">获取对象引用（就是操作该对象）</h4> <ul> <li>​<strong>直接属性/方法访问</strong>：编辑器阶段加载，适合静态资源。 ``` <h1 id="适用于node-resource-和-refcounted-这些类">适用于Node 、Resource 和 RefCounted 这些类</h1> <p>var obj = node.object # Property access. 访问节点的属性 var obj = node.get_object() # Method access. 访问节点的方法</p> </li> </ul> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+- ​**预加载**：编辑器阶段加载，适合静态资源。
+- ​**动态加载**：运行时加载，适合动态资源。
+</code></pre></div></div> <h1 id="预加载场景脚本编辑器阶段">预加载场景/脚本（编辑器阶段）</h1> <p>const MyScene = preload(“res://my_scene.tscn”) const MyScript = preload(“res://my_script.gd”)</p> <h1 id="运行时动态加载">运行时动态加载</h1> <p>var dynamic_resource = load(“res://dynamic_data.tres”)</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+- ​**避免动态查找**：使用 `@onready` 缓存节点引用。
+```gdscript
+# 慢：动态查找（每帧调用性能差）
+func _process(delta):
+    print(get_node("ChildNode"))
+
+# 快：缓存引用
+@onready var child_node = $ChildNode
+func _process(delta):
+    print(child_node)
+</code></pre></div></div> <ul> <li>​<strong>适用场景</strong>：通过检查器Interceptor配置节点依赖。导出变量（Editor 配置） <div class="language-gdscript highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="err">@</span><span class="k">export</span> <span class="k">var</span> <span class="n">enemy</span><span class="p">:</span> <span class="n">Node</span>  <span class="c1"># 在编辑器中拖拽赋值</span>
+<span class="k">func</span> <span class="nf">attack</span><span class="p">():</span>
+  <span class="k">if</span> <span class="n">enemy</span><span class="p">:</span>
+      <span class="n">enemy</span><span class="o">.</span><span class="n">take_damage</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</code></pre></div> </div> </li> <li>​<strong>适用场景</strong>：全局管理器（如游戏状态、音效），全局自动加载（单例）​。 ```gdscript <h1 id="autoloadsglobalgd">autoloads/global.gd</h1> <p>var score: int = 0</p> </li> </ul> <h1 id="其他脚本中访问">其他脚本中访问</h1> <p>func add_score(): Global.score += 10</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+#### 访问数据或逻辑
+- ​**直接调用属性/方法**：不检查类型，运行时动态解析。（**Duck Typing**）
+```gdscript
+# 假设目标节点有 `health` 属性和 `take_damage` 方法
+var target = $Enemy
+target.health -= 10      # 直接修改属性（可能报错）
+target.take_damage(10)   # 直接调用方法（可能报错）
+</code></pre></div></div> <ul> <li>​<strong>使用 <code class="language-plaintext highlighter-rouge">has_method</code> 或 <code class="language-plaintext highlighter-rouge">is_in_group</code></strong>：避免调用不存在的方法。（<strong>安全方法检查</strong>） <div class="language-gdscript highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="n">target</span> <span class="o">=</span> <span class="o">$</span><span class="n">Enemy</span>
+<span class="k">if</span> <span class="n">target</span><span class="o">.</span><span class="n">has_method</span><span class="p">(</span><span class="s2">"take_damage"</span><span class="p">):</span>
+  <span class="n">target</span><span class="o">.</span><span class="n">take_damage</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">target</span><span class="o">.</span><span class="n">is_in_group</span><span class="p">(</span><span class="s2">"enemies"</span><span class="p">):</span>
+  <span class="n">target</span><span class="o">.</span><span class="n">destroy</span><span class="p">()</span>
+</code></pre></div> </div> </li> <li> <strong>is 关键字</strong>：确保对象类型后再操作。<strong>类型断言（Type Casting）​</strong> <div class="language-gdscript highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="n">target</span> <span class="o">=</span> <span class="o">$</span><span class="n">Enemy</span>
+<span class="k">if</span> <span class="n">target</span> <span class="k">is</span> <span class="n">CharacterBody2D</span><span class="p">:</span>
+ <span class="n">target</span><span class="o">.</span><span class="n">velocity</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="o">-</span><span class="mi">500</span>  <span class="c1"># 安全访问</span>
+</code></pre></div> </div> </li> <li>​<strong>解耦调用</strong>：将方法动态绑定到外部。<strong>Callable 委托逻辑</strong> ```gdscript <h1 id="子节点定义">子节点定义</h1> <p>class Child: var callback: Callable func execute(): if callback: callback.call()</p> </li> </ul> <h1 id="父节点绑定方法">父节点绑定方法</h1> <p>@onready var child = $Child func _ready(): child.callback = _on_child_execute func _on_child_execute(): print(“Child executed!”)</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+
+#### 代码示例
+#####  9.​1. 场景：攻击敌人
+```gdscript
+# Enemy 节点脚本（enemy.gd）
+extends CharacterBody2D
+
+var health: int = 100
+
+func take_damage(amount: int):
+    health -= amount
+    if health &lt;= 0:
+        queue_free()
+
+# Player 节点脚本（player.gd）
+extends CharacterBody2D
+
+@export var attack_target: Node  # 在编辑器中拖拽赋值
+
+func _input(event):
+    if event.is_action_pressed("attack"):
+        if attack_target and attack_target.has_method("take_damage"):
+            attack_target.take_damage(20)
+</code></pre></div></div> <h5 id="92场景动态加载资源"> 9.​2. 场景：动态加载资源</h5> <div class="language-gdscript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 动态加载并实例化场景</span>
+<span class="k">var</span> <span class="n">enemy_scene</span> <span class="o">=</span> <span class="nb">load</span><span class="p">(</span><span class="s2">"res://enemy.tscn"</span><span class="p">)</span>
+<span class="k">var</span> <span class="n">new_enemy</span> <span class="o">=</span> <span class="n">enemy_scene</span><span class="o">.</span><span class="n">instantiate</span><span class="p">()</span>
+<span class="n">add_child</span><span class="p">(</span><span class="n">new_enemy</span><span class="p">)</span>
+</code></pre></div></div> <h3 id="10godot通知与回调函数">10.Godot通知与回调函数</h3> <h4 id="常用回调函数"><strong>常用回调函数</strong></h4> <table> <thead> <tr> <th>​<strong>回调函数</strong> </th> <th>​<strong>用途</strong> </th> <th>​<strong>触发时机</strong> </th> </tr> </thead> <tbody> <tr> <td><code class="language-plaintext highlighter-rouge">_ready()</code></td> <td>节点及其子节点已完全初始化（场景树构建完成）</td> <td>节点首次加入场景树，且所有子节点已 <code class="language-plaintext highlighter-rouge">_ready</code> 后触发</td> </tr> <tr> <td><code class="language-plaintext highlighter-rouge">_process(delta)</code></td> <td>每帧更新逻辑（依赖帧率，适合非物理逻辑）</td> <td>每帧触发（帧率不固定）</td> </tr> <tr> <td><code class="language-plaintext highlighter-rouge">_physics_process(delta)</code></td> <td>物理更新逻辑（固定时间步长，适合物理计算）</td> <td>每物理帧触发（默认每秒 60 次）</td> </tr> <tr> <td><code class="language-plaintext highlighter-rouge">_input(event)</code></td> <td>处理输入事件</td> <td>每输入事件触发（包括键盘、鼠标等）</td> </tr> <tr> <td><code class="language-plaintext highlighter-rouge">_unhandled_input(event)</code></td> <td>处理未被其他节点处理的输入事件</td> <td>输入事件未被消费时触发</td> </tr> </tbody> </table> <h4 id="对比-init初始化导出">对比 init、初始化、导出</h4> <h5 id="_init">​<strong><code class="language-plaintext highlighter-rouge">_init()</code></strong> </h5> <ul> <li>​<strong>用途</strong>：对象构造时初始化属性（无场景树依赖）。</li> <li>​<strong>触发时机</strong>：对象实例化时（节点未加入场景树）。</li> <li>​<strong>代码示例</strong>： ``` <h1 id="_init在_enter_tree或_ready之前触发但在脚本script创建并初始化其属性之后">_init() 在 _enter_tree() 或 _ready() 之前触发，但在脚本Script创建并初始化其属性之后。</h1> <p>@export var test: String = “one”: set(value): test = value + “!”</p> </li> </ul> <p>func _init(): # 在初始化属性之后，可以改变test的值，值将会变为‘two！’ . # 前面的Setter 函数在初始化后使用。 test = “two”</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+##### ​**导出变量初始化顺序**
+1. 默认值赋值 → 2. `_init()` → 3. 导出值赋值（编辑器覆盖）。
+- ​**代码示例**：
+    ```gdscript
+    @export var speed: int = 50  # 默认值
+    
+    func _init():
+        speed = 100  # 被 _init() 覆盖
+    
+    # 若在检查器Interceptor中设置 speed=200，最终值为 200
+    ```
+    
+
+---
+
+#### ​**3. 场景树生命周期**
+
+|​**回调/通知**|​**用途**|​**代码示例**|
+|---|---|---|
+|`_enter_tree()`|节点加入场景树时触发（适合初始化依赖场景树的逻辑）|`gdscript func _enter_tree(): print("加入场景树")`|
+|`_exit_tree()`|节点从场景树移除时触发（适合清理资源）|`gdscript func _exit_tree(): print("移除场景树")`|
+|`NOTIFICATION_PARENTED`|节点被添加为子节点时触发（适合动态绑定父节点逻辑）|`gdscript func _notification(what): if what == NOTIFICATION_PARENTED: connect_to_parent()`|
+|`NOTIFICATION_UNPARENTED`|节点被移除为子节点时触发（适合断开父节点连接）|`gdscript func _notification(what): if what == NOTIFICATION_UNPARENTED: disconnect_from_parent()`|
+
+---
+
+#### ​**4. 输入处理最佳实践**
+
+- ​**避免在 `_process` 中检查输入**：每帧检查浪费性能。
+- ​**使用 `_unhandled_input`**：仅在事件未被消费时触发。
+- ​**代码示例**：
+</code></pre></div></div> <h1 id="每一帧都会执行停止按键也会检查所以有性能浪费">每一帧都会执行，停止按键也会检查，所以有性能浪费</h1> <p>func _process(delta): if Input.is_action_just_pressed(“ui_select”): print(delta)</p> <h1 id="只有在按键按下后才使用性能很好">只有在按键按下后才使用，性能很好</h1> <p>func _unhandled_input(event): match event.get_class(): “InputEventKey”: if Input.is_action_just_pressed(“ui_accept”): print(get_process_delta_time())</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+
+#### ​**5. 定时器替代高频 `_process`**
+
+“依赖于帧速率的 delta 时间增量”时，请使用 `_process`。但是，如果不需要每帧都执行，则可以选择用定时器循环来替代。
+
+- ​**用途**：减少每帧执行次数，优化性能。
+- ​**代码示例**：
+    ```gdscript
+    @onready var timer = $Timer
+    func _ready():
+        timer.wait_time = 0.5  # 每 0.5 秒触发
+        timer.timeout.connect(_on_timer_timeout)
+        timer.start()
+    
+    func _on_timer_timeout():
+        print("定时任务执行")
+
+	# 或者使用如下的方式
+	func _ready():
+		var timer = Timer.new()
+		timer.autostart = true
+		timer.wait_time = 0.5
+		add_child(timer)
+		tiemr.timeout.connect(func():
+			print("This block runs every 0.5 seconds")
+		)
+    
+
+    ```
+    
+
+---
+
+#### ​**6. 父节点信号动态绑定**
+
+	当实例化脚本或独立的场景时，节点不会在创建时被添加到 SceneTree 中，所以未触发 `_enter_tree` 回调。而只有 `_init` 调用发生。当场景被添加到 SceneTree 时，才会调用 `_enter_tree` 和 `_ready`。
+
+- ​**场景**：节点被添加到父节点时自动连接信号。可以使用 [PARENTED](https://docs.godotengine.org/zh-cn/4.x/classes/class_node.html#class-node-constant-notification-parented) 通知
+- ​**代码示例**：
+``` gdscript
+# 下面代码是将节点方法连接到其父节点上自定义信号, 并且不会失败的代码段。对可能在运行时创建并以数据为中心的节点很有用。
+extends Node
+
+var parent_cache
+
+func connection_check():
+	return parent_cache.has_user_signal("interacted_with")
+
+func _notification(what):
+	match what:
+		NOTIFICATION_PARENTED:
+			parent_cache = get_parent()
+			if connection_check():
+				parent_cache.interacted_with.connect(_on_parent_interacted_with)
+		NOTIFICATION_UNPARENTED:
+			if connection_check():
+				parent_cache.interacted_with.disconnect(_on_parent_interacted_with)
+
+func _on_parent_interacted_with():
+	print("I'm reacting to my parent's interaction!")
+</code></pre></div></div> <h3 id="10数据偏好">10.数据偏好</h3> <h3 id="11逻辑偏好">11.逻辑偏好</h3> <h3 id="12-项目组织">12. 项目组织</h3> <h3 id="13版本控制系统">13.版本控制系统</h3> </div> </article> <br> <hr> <br> <ul class="list-disc pl-8"></ul> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/" target="_blank" rel="external nofollow noopener">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2" target="_blank" rel="external nofollow noopener">Displaying External Posts on Your al-folio Blog</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2025/%E5%8F%88%E5%BC%80%E5%A7%8B%E5%B9%BB%E6%83%B3%E4%BA%86-%E6%81%BC/">又开始幻想了“恼”！</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2025/GDScript%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/">GDScript依赖注入实践</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2025/GDScript%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/">GDScript使用小技巧</a> </li> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2025 The uifj. Made with ❤️ in 🇧🇷.<br> Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/plotly.js@3.0.1/dist/plotly.min.js" integrity="sha256-oy6Be7Eh6eiQFs5M7oXuPxxm9qbJXEtTpfSI93dW16Q=" crossorigin="anonymous"></script> <script defer src="/assets/js/plotly-setup.js?5e81fc889064852664784cb29c0d6970" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>
