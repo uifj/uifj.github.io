@@ -1,7 +1,7 @@
 ---
 layout: book-shelf
-title: 书架
-permalink: /books/
+title: 每月总结
+permalink: /reports/
 nav: false
 collection: books
 ---

@@ -1,7 +1,7 @@
 ---
 layout: book-shelf
-title: 书架
-permalink: /books/
+title: 个人故事
+permalink: /stories/
 nav: false
 collection: books
 ---

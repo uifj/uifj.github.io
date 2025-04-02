@@ -1,7 +1,7 @@
 ---
 layout: book-shelf
-title: 书架
-permalink: /books/
+title: 高效工具
+permalink: /tools/
 nav: false
 collection: books
 ---
