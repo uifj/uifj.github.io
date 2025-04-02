@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "45b08d8d566aff26",
+        "id": "c6ad9b7703559dfb",
         "type": "tabs",
         "children": [
           {
-            "id": "6405d158a6241fec",
+            "id": "8122372db2184319",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/godot/2025-04-02-又开始幻想了“恼”.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-04-02-又开始幻想了“恼”"
+              "title": "新标签页"
             }
           }
         ]
@@ -173,11 +169,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6405d158a6241fec",
+  "active": "8122372db2184319",
   "lastOpenFiles": [
+    "_posts/godot/2025-04-02-又开始幻想了“恼”.md",
     "_posts/2025-04-01-帆鸣_uifj.md",
     "_posts/2025-04-01-newpage.md",
-    "_posts/godot/2025-04-02-又开始幻想了“恼”.md",
     "_posts/2015-03-15-formatting-and-links.md",
     "_posts/godot",
     "_posts/2025-03-26-plotly.md",
