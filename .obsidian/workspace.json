@@ -156,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -173,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d686c3745c5cabd",
+  "active": "2352af1b30414f5c",
   "lastOpenFiles": [
     "_posts/2025-04-02-GDScript使用小技巧.md",
     "_posts/2025-04-02-GDScript依赖注入.md",
