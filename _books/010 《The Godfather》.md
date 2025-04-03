@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: The Godfather
+title: 《The Godfather》
 author: Mario Puzo
 cover: assets/img/book_covers/the_godfather.jpg
 olid: OL43499941M
