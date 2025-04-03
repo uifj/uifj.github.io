@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-04-02-GDScript依赖注入.md",
+                "file": "_posts/2025-04-02-手册学习之最佳实践.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-02-GDScript依赖注入"
+              "title": "2025-04-02-手册学习之最佳实践"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2025-04-01-帆鸣_uifj.md"
+                "file": "_posts/2025-04-02-手册学习之最佳实践.md"
               },
               "icon": "lucide-list",
-              "title": "2025-04-01-帆鸣_uifj 的大纲"
+              "title": "2025-04-02-手册学习之最佳实践 的大纲"
             }
           },
           {
@@ -156,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,13 +173,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8122372db2184319",
+  "active": "8d686c3745c5cabd",
   "lastOpenFiles": [
     "_posts/2025-04-02-GDScript使用小技巧.md",
+    "_posts/2025-04-02-GDScript依赖注入.md",
     "_posts/2025-04-02-手册学习之最佳实践.md",
     "_posts/2025-04-01-手册学习之常用节点.md",
     "_posts/2025-04-01-帆鸣_uifj.md",
-    "_posts/2025-04-02-GDScript依赖注入.md",
     "_posts/godot/2025-04-02-又开始幻想了“恼”.md",
     "_posts/2015-03-15-formatting-and-links.md",
     "_posts/godot",
