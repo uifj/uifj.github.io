@@ -501,11 +501,61 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-读书笔记方法",
+          title: '读书笔记方法',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/00%20%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95/";
+            },},{id: "books-the-godfather",
+          title: '《The Godfather》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/010%20%E3%80%8AThe%20Godfather%E3%80%8B/";
+            },},{id: "books-洋葱阅读法",
+          title: '《洋葱阅读法》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/01%E3%80%8A%E6%B4%8B%E8%91%B1%E9%98%85%E8%AF%BB%E6%B3%95%E3%80%8B/";
+            },},{id: "books-60分钟高效阅读",
+          title: '《60分钟高效阅读》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/02%20%E3%80%8A60%E5%88%86%E9%92%9F%E9%AB%98%E6%95%88%E9%98%85%E8%AF%BB%E3%80%8B/";
+            },},{id: "books-定投改变命运",
+          title: '《定投改变命运》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/03%20%E3%80%8A%E5%AE%9A%E6%8A%95%E6%94%B9%E5%8F%98%E5%91%BD%E8%BF%90%E3%80%8B/";
+            },},{id: "books-微信互联网平民创业",
+          title: '《微信互联网平民创业》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/04%E3%80%8A%E5%BE%AE%E4%BF%A1%E4%BA%92%E8%81%94%E7%BD%91%E5%B9%B3%E6%B0%91%E5%88%9B%E4%B8%9A%E3%80%8B/";
+            },},{id: "books-自学是门手艺",
+          title: '《自学是门手艺》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/05%20%E3%80%8A%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA%E3%80%8B/";
+            },},{id: "books-把时间当做朋友",
+          title: '《把时间当做朋友》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/06%20%E3%80%8A%E6%8A%8A%E6%97%B6%E9%97%B4%E5%BD%93%E5%81%9A%E6%9C%8B%E5%8F%8B%E3%80%8B/";
+            },},{id: "books-我也有话要说",
+          title: '《我也有话要说》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/07%20%E3%80%8A%E6%88%91%E4%B9%9F%E6%9C%89%E8%AF%9D%E8%A6%81%E8%AF%B4%E3%80%8B/";
+            },},{id: "books-小狗钱钱",
+          title: '《小狗钱钱》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/08%20%E3%80%8A%E5%B0%8F%E7%8B%97%E9%92%B1%E9%92%B1%E3%80%8B/";
+            },},{id: "books-开窍",
+          title: '《开窍》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/09%20%E3%80%8A%E5%BC%80%E7%AA%8D%E3%80%8B/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
