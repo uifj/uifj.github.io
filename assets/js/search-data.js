@@ -522,6 +522,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/010%20%E3%80%8AThe%20Godfather%E3%80%8B/";
+            },},{id: "books-the-godfather",
+          title: '《The Godfather》',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/011%20%E3%80%8AThe%20The%20Godfather%E3%80%8B/";
             },},{id: "books-洋葱阅读法",
           title: '《洋葱阅读法》',
           description: "",
