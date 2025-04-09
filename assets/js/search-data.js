@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/stories/";
               },
-            },{id: "post-又开始幻想了-恼",
+            },{id: "post-first-2d-game",
+        
+          title: "First 2D Game",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/First-2D-Game/";
+          
+        },
+      },{id: "post-又开始幻想了-恼",
         
           title: "又开始幻想了“恼”！",
         
