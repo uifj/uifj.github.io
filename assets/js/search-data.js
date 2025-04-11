@@ -522,11 +522,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/010%20%E3%80%8AThe%20Godfather%E3%80%8B/";
-            },},{id: "books-the-godfather",
-          title: '《The Godfather》',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/011%20%E3%80%8AThe%20The%20Godfather%E3%80%8B/";
             },},{id: "books-洋葱阅读法",
           title: '《洋葱阅读法》',
           description: "",
@@ -537,8 +532,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/02%20%E3%80%8A60%E5%88%86%E9%92%9F%E9%AB%98%E6%95%88%E9%98%85%E8%AF%BB%E3%80%8B/";
-            },},{id: "books-定投改变命运",
-          title: '《定投改变命运》',
+            },},{id: "books-让时间陪你慢慢变富",
+          title: '《让时间陪你慢慢变富》',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/03%20%E3%80%8A%E5%AE%9A%E6%8A%95%E6%94%B9%E5%8F%98%E5%91%BD%E8%BF%90%E3%80%8B/";
