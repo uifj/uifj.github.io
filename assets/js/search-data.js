@@ -72,15 +72,26 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/stories/";
               },
-            },{id: "post-first-2d-game",
+            },{id: "post-最佳实践案例",
         
-          title: "First 2D Game",
+          title: "最佳实践案例",
         
         description: "this is what included plotly.js code could look like",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/First-2D-Game/";
+            window.location.href = "/blog/2025/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%A1%88%E4%BE%8B/";
+          
+        },
+      },{id: "post-依赖注入的最佳实践",
+        
+          title: "依赖注入的最佳实践",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/";
           
         },
       },{id: "post-又开始幻想了-恼",
