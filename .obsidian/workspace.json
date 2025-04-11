@@ -11,14 +11,12 @@
             "id": "8122372db2184319",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_posts/godot/2025-04-02-GDScript依赖注入.md",
-                "mode": "source",
-                "source": true
+                "file": "assets/img/book_covers/yhcsread.png"
               },
-              "icon": "lucide-file",
-              "title": "2025-04-02-GDScript依赖注入"
+              "icon": "lucide-image",
+              "title": "yhcsread"
             }
           },
           {
@@ -27,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_books/011 《The The Godfather》.md",
+                "file": "_books/07 《我也有话要说》.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "011 《The The Godfather》"
+              "title": "07 《我也有话要说》"
             }
           }
         ],
@@ -190,8 +188,32 @@
   },
   "active": "5264e3fc9f5b3897",
   "lastOpenFiles": [
+    "assets/img/book_covers/read60s.png",
+    "assets/img/book_covers/slowberich.png",
+    "assets/img/book_covers/weixincreate.png",
+    "assets/img/book_covers/selflearning.png",
+    "assets/img/book_covers/timeasfriends.png",
+    "assets/img/book_covers/dogrich.png",
+    "assets/img/book_covers/kaiqiao.png",
+    "assets/img/book_covers/lixiaolai.png",
+    "_books/09 《开窍》.md",
+    "_books/08 《小狗钱钱》.md",
+    "_books/07 《我也有话要说》.md",
+    "_books/06 《把时间当做朋友》.md",
+    "_books/05 《自学是门手艺》.md",
+    "_books/03 《定投改变命运》.md",
+    "_books/01《洋葱阅读法》.md",
+    "_books/02 《60分钟高效阅读》.md",
     "_books/010 《The Godfather》.md",
+    "_books/04《微信互联网平民创业》.md",
     "_books/011 《The The Godfather》.md",
+    "_pages/404.md",
+    "_posts/2015-05-15-images.md",
+    "_posts/2015-03-15-formatting-and-links.md",
+    "assets/img/book_covers/yhcsread.png",
+    "assets/img/book_covers/the_godfather.jpg",
+    "_books/00 读书笔记方法.md",
+    "_posts/godot/2025-04-02-GDScript依赖注入.md",
     "_pages/news.md",
     "_pages/teaching.md",
     "_pages/repositories.md",
@@ -201,33 +223,9 @@
     "_pages/profiles.md",
     "_pages/dropdown.md",
     "_pages/cv.md",
-    "_pages/books.md",
-    "_pages/blog.md",
-    "_pages/about_einstein.md",
-    "_pages/about.md",
-    "_posts/godot/2025-04-09-First 2D Game.md",
-    "_posts/godot/2025-04-02-GDScript依赖注入.md",
-    "_posts/godot/2025-04-02-GDScript使用小技巧.md",
-    "_posts/godot/2025-04-02-又开始幻想了“恼”.md",
-    "_posts/2025-04-01-帆鸣_uifj.md",
-    "_books/09 《开窍》.md",
-    "_books/01《洋葱阅读法》.md",
-    "_books/03 《定投改变命运》.md",
-    "_books/04《微信互联网平民创业》.md",
-    "_books/05 《自学是门手艺》.md",
-    "_books/06 《把时间当做朋友》.md",
     "_books/未命名",
-    "assets/img/book_covers/yhcsread.png",
     "_posts/godot",
     "_pages/stories",
-    "lighthouse_results/mobile/pagespeed.svg",
-    "lighthouse_results/desktop/pagespeed.svg",
-    "readme_preview/photos-screenshot.png",
-    "readme_preview/projects.png",
-    "readme_preview/publications.png",
-    "readme_preview/people.png",
-    "readme_preview/math.png",
-    "readme_preview/light.png",
-    "readme_preview/jupyter.png"
+    "lighthouse_results/mobile/pagespeed.svg"
   ]
 }
