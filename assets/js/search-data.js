@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-关于我",
-    title: "关于我",
+    id: "nav-企划星",
+    title: "企划星",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -16,30 +16,30 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-作品项目",
-          title: "作品项目",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-产品矩阵",
+          title: "产品矩阵",
+          description: "企划星全栈工程：移动客户端、桌面端、服务端、运营后台、官网与共享基础包。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-代码仓库",
           title: "代码仓库",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "企划星全栈工程的 GitHub 仓库与贡献者主页，数据维护在 `_data/repositories.yml`。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-简历",
-          title: "简历",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+        },{id: "nav-产品档案",
+          title: "产品档案",
+          description: "企划星的产品定位、矩阵、里程碑与技术栈。内容维护在 `_data/cv.yml`。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-up主",
-          title: "UP主",
-          description: "Materials for courses you taught. Replace this text with your description.",
+        },{id: "nav-快速上手",
+          title: "快速上手",
+          description: "把企划星全栈在本地跑起来：后端、客户端、桌面端与官网。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -65,14 +65,62 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/tools/";
               },
-            },{id: "dropdown-个人故事",
-              title: "个人故事",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/stories/";
-              },
-            },{id: "post-最佳实践案例",
+            },{id: "post-你好-企划星-planstar",
+        
+          title: "你好，企划星 planstar！",
+        
+        description: "本站正式升级为企划星（planstar）官网：一个让人「保持行动、即时反馈」的企划支持平台。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hello-planstar/";
+          
+        },
+      },{id: "post-企划星-flutter-客户端-1-0-1-发布",
+        
+          title: "企划星 Flutter 客户端 1.0.1 发布",
+        
+        description: "四个主 Tab、星推官审批闭环与 19 页 Android 真机画廊——全部来自真实种子数据，非设计稿。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/flutter-1-0-1/";
+          
+        },
+      },{id: "post-企划星桌面日历清单-同一套内核-第二种形态",
+        
+          title: "企划星桌面日历清单：同一套内核，第二种形态",
+        
+        description: "Flutter Windows 桌面端重写完成：原生通知、多窗口、托盘、农历，与移动端共享 core 与设计令牌。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/desktop-calendar/";
+          
+        },
+      },{id: "post-立项前投票-立项后支持-企划星的产品机制",
+        
+          title: "立项前投票，立项后支持：企划星的产品机制",
+        
+        description: "为什么投票不扣星币？为什么回报档位在立项之后？拆解企划星「一个闭环、两段旅程」的设计。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/vote-then-support/";
+          
+        },
+      },{id: "post-企划星全栈架构总览-五个可构建单元",
+        
+          title: "企划星全栈架构总览：五个可构建单元",
+        
+        description: "Flutter 客户端、Go 业务 API、Admin 运营服务、Next.js 官网与共享内核——彼此只靠 HTTP 契约耦合。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/fullstack-architecture/";
+          
+        },
+      },{id: "post-最佳实践案例",
         
           title: "最佳实践案例",
         
@@ -149,380 +197,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/%E6%89%8B%E5%86%8C%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E7%94%A8%E8%8A%82%E7%82%B9/";
           
         },
-      },{id: "post-帆鸣-uifj-愚人节快乐",
-        
-          title: "帆鸣_uifj_愚人节快乐！",
-        
-        description: "迁移个人website",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/%E5%B8%86%E9%B8%A3_uifj/";
-          
-        },
-      },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
       },{id: "books-读书笔记方法",
           title: '读书笔记方法',
           description: "",
@@ -578,62 +252,45 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/09%20%E3%80%8A%E5%BC%80%E7%AA%8D%E3%80%8B/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-产品口径确立为企划支持平台-立项前星推官投票不扣星币-立项后设置回报档位接受资金支持",
+          title: '产品口径确立为企划支持平台：立项前星推官投票不扣星币，立项后设置回报档位接受资金支持。',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-企划星桌面日历清单上线-windows-用户级安装器-原生通知-多窗口-托盘与农历-复用移动端同一套设计令牌",
+          title: '企划星桌面日历清单上线 Windows 用户级安装器：原生通知、多窗口、托盘与农历，复用移动端同一套设计令牌。',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-企划星-flutter-客户端-1-0-1-发布-四个主-tab-星推官审批闭环-附-19-页-android-真机画廊",
+          title: '企划星 Flutter 客户端 1.0.1 发布：四个主 Tab、星推官审批闭环，附 19 页 Android 真机画廊。',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-企划星-flutter-客户端",
+          title: '企划星 Flutter 客户端',
+          description: "投票决策类应用 · Clean DDD + Riverpod + GoRouter",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-企划星桌面日历清单",
+          title: '企划星桌面日历清单',
+          description: "Flutter Windows 桌面端 · 与移动端共享内核与设计令牌",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-planstar-后端-api",
+          title: 'Planstar 后端 API',
+          description: "Go · Kratos v3 · 单一二进制 · 10 个 MySQL 域库",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-admin-运营后台",
+          title: 'Admin 运营后台',
+          description: "Kratos + AIP + ent + Wire · 审核与举报运营",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-planstar-web-官网",
+          title: 'Planstar Web 官网',
+          description: "Next.js 15 App Router · 与客户端同一套设计令牌",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-core-与-core-design-system",
+          title: 'core 与 core_design_system',
+          description: "纯 Dart 内核 + 三层设计令牌 · 移动端与桌面端共享",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',

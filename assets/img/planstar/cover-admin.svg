@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF7200"/>
+      <stop offset="1" stop-color="#B34E00"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g fill="#FFFFFF">
+    <path opacity="0.10" transform="translate(950 80) scale(3.6)" d="M50 19 L58.2 41.7 L82.3 42.5 L63.3 57.3 L70 80.5 L50 67 L30 80.5 L36.7 57.3 L17.7 42.5 L41.8 41.7 Z"/>
+    <circle opacity="0.30" cx="170" cy="110" r="4"/>
+    <circle opacity="0.22" cx="400" cy="70" r="3"/>
+    <circle opacity="0.28" cx="1070" cy="540" r="4"/>
+  </g>
+  <g transform="translate(140 140)">
+    <path d="M110 0 L220 45 L220 150 C220 230 165 280 110 300 C55 280 0 230 0 150 L0 45 Z" fill="none" stroke="#FFFFFF" stroke-width="10"/>
+    <path transform="translate(55 90) scale(1.1)" fill="#FFFFFF" d="M50 19 L58.2 41.7 L82.3 42.5 L63.3 57.3 L70 80.5 L50 67 L30 80.5 L36.7 57.3 L17.7 42.5 L41.8 41.7 Z"/>
+  </g>
+  <text x="430" y="270" fill="#FFFFFF" font-size="88" font-weight="700">planstar</text>
+  <text x="430" y="350" fill="#FFEEDB" font-size="44">企划星 · Admin 运营后台</text>
+  <text x="430" y="415" fill="#FFEEDB" font-size="28" opacity="0.85">Kratos + ent + Wire · 审核与举报 · 只写运营库</text>
+</svg>
