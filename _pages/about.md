@@ -53,13 +53,13 @@ latest_posts:
 
 ## 产品矩阵
 
-| 端 | 工程 | 技术栈 |
-| --- | --- | --- |
-| 移动客户端 | [flutter_planstar_app](https://github.com/uifj/flutter_planstar_app) | Flutter · Clean DDD · Riverpod · GoRouter，15 个功能域 |
-| 桌面日历清单 | [planstar_desktop_app](https://github.com/uifj/planstar_desktop_app) | Flutter Windows · 原生通知 · 多窗口 · 托盘 · 农历 |
-| 业务 API | [planstar_kratos_server](https://github.com/uifj/planstar_kratos_server) | Go · Kratos v3 · MySQL ×10 · Redis · RabbitMQ · Elasticsearch |
-| 运营后台 | planstar_kratos_server/admin | Kratos + ent + Wire · 审核与举报代理 |
-| 官方网站 | planstar_web | Next.js 15 · React 19 · Tailwind CSS v4 · Turborepo |
+| 端           | 工程                                                                     | 技术栈                                                        |
+| ------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| 移动客户端   | [flutter_planstar_app](https://github.com/uifj/flutter_planstar_app)     | Flutter · Clean DDD · Riverpod · GoRouter，15 个功能域        |
+| 桌面日历清单 | [planstar_desktop_app](https://github.com/uifj/planstar_desktop_app)     | Flutter Windows · 原生通知 · 多窗口 · 托盘 · 农历             |
+| 业务 API     | [planstar_kratos_server](https://github.com/uifj/planstar_kratos_server) | Go · Kratos v3 · MySQL ×10 · Redis · RabbitMQ · Elasticsearch |
+| 运营后台     | planstar_kratos_server/admin                                             | Kratos + ent + Wire · 审核与举报代理                          |
+| 官方网站     | planstar_web                                                             | Next.js 15 · React 19 · Tailwind CSS v4 · Turborepo           |
 
 移动端与桌面端共享同一套 `core`（纯 Dart 内核）与 `core_design_system`（三层设计令牌），Web 端设计令牌与 Flutter 端一一对应——全平台一套视觉语言。
 

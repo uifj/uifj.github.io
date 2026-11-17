@@ -15,4 +15,4 @@ related_publications: false
 - **韧性**：后端未启动时页面不崩溃，聚合楼层独立降级为提示条或空状态。
 - **质量**：TypeScript strict、Vitest + Testing Library + Playwright，CI 走 lint → typecheck → test → build → e2e。
 
-工程位于工作区 `planstar_web/`（Node ≥ 20.11，pnpm ≥ 9，`pnpm dev` 默认 <http://localhost:3000>）。
+工程位于工作区 `planstar_web/`（Node ≥ 20.11，pnpm ≥ 9，`pnpm dev` 默认 `http://localhost:3000`）。

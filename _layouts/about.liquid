@@ -27,9 +27,7 @@ layout: default
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {% if page.profile.image contains '://' %}
-            {%
-              include figure.liquid loading="eager" url=page.profile.image avoid_scaling=true class=profile_image_class sizes=sizes alt="planstar 头像"
-            %}
+            {% include figure.liquid loading="eager" url=page.profile.image avoid_scaling=true class=profile_image_class sizes=sizes alt="planstar 头像" %}
           {% else %}
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
             {%
