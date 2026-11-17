@@ -1,97 +1,86 @@
-- title: General Information
+- title: 基本信息
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: 名称
+      value: 企划星 planstar
+    - name: 定位
+      value: 企划支持平台（投票决策类应用）
+    - name: 核心机制
+      value: 立项前星推官投票（不扣星币）→ 立项后回报档位支持
+    - name: 企划分类
+      value: 游戏创作、自媒体、小说创作、周边同人等
+    - name: 维护者
+      value: <a href="https://github.com/uifj">@uifj</a>
 
-- title: Education
+- title: 产品矩阵
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: <a href="https://github.com/uifj/flutter_planstar_app">企划星 Flutter 客户端</a>
+      institution: 移动客户端
+      year: 1.0.1
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - monorepo + Clean DDD + Riverpod + GoRouter，15 个功能域垂直切片。
+        - 四个主 Tab：首页 / 发现 / 企划（星推官审批）/ 我的；星币商城、榜单、搜索、订单闭环。
+    - title: <a href="https://github.com/uifj/planstar_desktop_app">企划星桌面日历清单</a>
+      institution: Windows 桌面端
+      year: 重写版
       description:
-        - Description 1.
-        - Description 2.
+        - 完全复用移动端 core 与 core_design_system，不引入第二套视觉与状态方案。
+        - 原生通知、多窗口、托盘、开机自启、农历；用户级安装器覆盖升级。
+    - title: <a href="https://github.com/uifj/planstar_kratos_server">Planstar 后端 API</a>
+      institution: 业务服务端
+      year: Kratos v3
+      description:
+        - 单一二进制，10 个 planstar_* MySQL 域库；Redis / RabbitMQ / Elasticsearch。
+        - Consul 注册、Jaeger 追踪、Prometheus 指标；本地三容器一键联调。
+    - title: Admin 运营后台
+      institution: 运营服务端 + 控制台
+      year: 独立模块
+      description:
+        - Kratos + AIP + ent + Wire + buf 生成链路；只读业务库、只写运营库。
+        - 审核与举报代理到 planstar 运维 API；Vue/Vite 控制台经 nginx 部署。
+    - title: Planstar Web 官网
+      institution: 官方网站
+      year: Next.js 15
+      description:
+        - pnpm workspaces + Turborepo；design-tokens / ui / api-client / config 四包。
+        - 后端不可用时楼层独立降级，页面不崩溃。
 
-- title: Experience
+- title: 里程碑
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2026-11
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Flutter 客户端 1.0.1+1001：19 页 Android 16 真机画廊（真实种子数据，非设计稿）。
+        - 桌面日历清单 Windows 安装器：原生通知可用，Release 产物约 32 MB。
+    - year: 2026-10
       items:
-        - Max Planck Medal
+        - 产品口径确立为「企划支持平台」：投票决策与支持交付为同一闭环的前后两段。
+        - Next.js 官网 Monorepo 搭建，设计令牌与 Flutter 端字段同名对齐。
+    - year: 2025-04
+      items:
+        - 个人站点迁移至 GitHub Pages（al-folio），后升级为企划星官网。
 
-- title: Academic Interests
+- title: 技术栈
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 客户端
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Flutter 3.41.9 / Dart 3.11.5 · Clean DDD · Riverpod · GoRouter
+        - 纯 Dart 内核 core：sealed Result、仓储端口、HTTP 缓存 5 策略、分片上传
+    - title: 服务端
       items:
-        - Description 1.
-        - Description 2.
+        - Go 1.26 · Kratos v3（裸 net/http）· MySQL 8.x ×10 · Redis · RabbitMQ · Elasticsearch
+        - OTel / Prometheus / Jaeger / Grafana / Consul
+    - title: Web
+      items:
+        - Next.js 15 App Router · React 19 · TypeScript strict · Tailwind CSS v4
+        - pnpm 9 + Turborepo 2 · Vitest + Playwright
 
-- title: Other Interests
+- title: 开源仓库
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <a href="https://github.com/uifj/flutter_planstar_app">uifj/flutter_planstar_app</a> · 移动客户端
+    - <a href="https://github.com/uifj/planstar_kratos_server">uifj/planstar_kratos_server</a> · 业务 API + Admin
+    - <a href="https://github.com/uifj/planstar_desktop_app">uifj/planstar_desktop_app</a> · 桌面日历清单
+    - <a href="https://github.com/uifj/uifj.github.io">uifj/uifj.github.io</a> · 本站

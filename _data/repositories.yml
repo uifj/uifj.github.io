@@ -4,5 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - uifj/flutter_planstar_app
+  - uifj/planstar_kratos_server
+  - uifj/planstar_desktop_app
   - uifj/uifj.github.io
-  - uifj/uifj-godot-learning-lab 
