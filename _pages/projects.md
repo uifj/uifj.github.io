@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 作品项目
+title: 产品矩阵
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 企划星全栈工程：移动客户端、桌面端、服务端、运营后台、官网与共享基础包。
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [客户端, 服务端, Web, 基础设施]
 horizontal: false
 ---
 

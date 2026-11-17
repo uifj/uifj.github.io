@@ -1,81 +1,19 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Planstar 后端 API
+description: Go · Kratos v3 · 单一二进制 · 10 个 MySQL 域库
+img: assets/img/planstar/cover-server.svg
 importance: 3
-category: work
+category: 服务端
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+企划星 Flutter 客户端的后端 API 服务：单一 Kratos v3 服务、单一二进制，HTTP 传输直接用 `http.ServeMux` + 原生 `net/http` handler，依赖在 `cmd/planstar/main.go` 手工组装（无 Wire）。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- **数据**：10 个 `planstar_*` MySQL 库（user / catalog / ticket / order / payment / marketing / community / content / meta / shop），统一经 `otelsql` 接入 OTel。
+- **中间件**：Redis 会话缓存、验证码与限流；RabbitMQ 领域事件（重试 + DLX + W3C trace 透传）；Elasticsearch 企划读模型与热榜（失败回退 MySQL）。
+- **分层**：`biz`（领域逻辑 + 仓储端口）← `service`（HTTP 适配）与 `data`（仓储实现）依赖倒置；`server` 层含 recoverer / timeout / bodyLimit / cors / traceHeader 中间件与运维端口。
+- **可观测性**：Consul 注册、Jaeger 追踪、Prometheus 指标、Grafana 面板；运维端口 `/metrics` `/healthz` `/readyz`。
+- **本地联调**：`docker-compose.local.yml` 三容器一键启动（MySQL / Redis / API），带演示数据；生产编排零演示数据。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+仓库：<https://github.com/uifj/planstar_kratos_server> · 客户端契约见 `docs/api/API_CONTRACT.md`。

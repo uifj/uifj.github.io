@@ -13,7 +13,4 @@ children:
   - title: divider
   - title: 高效工具
     permalink: /tools/
-  - title: divider
-  - title: 个人故事
-    permalink: /stories/
 ---

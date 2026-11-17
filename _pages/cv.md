@@ -1,11 +1,10 @@
 ---
 layout: cv
 permalink: /cv/
-title: 简历
+title: 产品档案
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: 企划星的产品定位、矩阵、里程碑与技术栈。内容维护在 `_data/cv.yml`。
 toc:
   sidebar: left
 ---

@@ -6,8 +6,6 @@ nav: false
 collection: books
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+> 书是打破时间枷锁的东西：千年之前的人，此刻正在你脑海里清晰地说话。做企划也一样——把读过的书、想过的事，变成可以被投票、被支持的行动。
 
-## Books that I am reading, have read, or will read
+## 我在读、读过与想读的书
