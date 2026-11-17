@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1C66E5"/>
+      <stop offset="1" stop-color="#033099"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g fill="#FFFFFF">
+    <path opacity="0.10" transform="translate(960 90) scale(3.4)" d="M50 19 L58.2 41.7 L82.3 42.5 L63.3 57.3 L70 80.5 L50 67 L30 80.5 L36.7 57.3 L17.7 42.5 L41.8 41.7 Z"/>
+    <circle opacity="0.35" cx="150" cy="120" r="4"/>
+    <circle opacity="0.25" cx="320" cy="80" r="3"/>
+    <circle opacity="0.30" cx="1080" cy="520" r="4"/>
+    <circle opacity="0.20" cx="860" cy="560" r="3"/>
+  </g>
+  <g transform="translate(120 150)">
+    <rect x="0" y="0" width="150" height="260" rx="24" fill="none" stroke="#FFFFFF" stroke-width="10"/>
+    <line x1="55" y1="30" x2="95" y2="30" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="75" cy="228" r="10" fill="#FFFFFF"/>
+    <path transform="translate(38 82) scale(0.75)" fill="#FF7200" d="M50 19 L58.2 41.7 L82.3 42.5 L63.3 57.3 L70 80.5 L50 67 L30 80.5 L36.7 57.3 L17.7 42.5 L41.8 41.7 Z"/>
+  </g>
+  <text x="340" y="270" fill="#FFFFFF" font-size="88" font-weight="700">planstar</text>
+  <text x="340" y="350" fill="#CCE2FF" font-size="44">企划星 · Flutter 客户端</text>
+  <text x="340" y="415" fill="#ADCFFF" font-size="28" opacity="0.85">Clean DDD · Riverpod · GoRouter · 15 个功能域</text>
+</svg>
